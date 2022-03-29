@@ -1,8 +1,8 @@
-# **sena-base-2021 v5.1.0**
+# **CF3 - Gestión de servicios en la nube**
 
-## **https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/**
+## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/228132_CF3_GESTION_SERVICIOS_NUBE](https://ecored-sena.github.io/228132_CF3_GESTION_SERVICIOS_NUBE)
 
 #
 
