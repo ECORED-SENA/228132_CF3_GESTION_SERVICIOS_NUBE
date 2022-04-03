@@ -27,7 +27,10 @@
   &_1
     color: #2EC49F
   &_2
-    color: $white
+    color: $white !important
+  &_3
+    color: #12263F !important
+    font-size: 1.5em !important
 
 .justify-center
   display: flex
@@ -149,7 +152,10 @@ hr
   &_11
     background: rgb(17,110,185);
     background: linear-gradient(90deg, rgba(17,110,185,1) 0%, rgba(24,148,246,1) 100%);
-     
+  &_12
+    background: rgb(46,196,159);
+    background: linear-gradient(232deg, rgba(46,196,159,1) 0%, rgba(43,57,144,1) 100%); 
+    border-radius: 10px
 .bg_grad-01
   position: relative
   .row, p, .cajon, .slyder-f
@@ -212,11 +218,11 @@ hr
       background-image: none
 .bg_grad-05
   position: relative
-  .tirulo-sexto, figure, .LineaTiempoD
+  .titulo-sexto, figure, .linea-tiempo-d
     position: relative
   &::before
     content: ''
-    position: absolute
+    position: absolute  
     margin: 0 -3rem
     top: 3rem
     left: 0

@@ -17,7 +17,7 @@
             img(src='@/assets/curso/temas/tema1/t1-3.svg', alt='1-1')
           hr.mt-0.mb-2
           p <em>Active Directory</em> o conocido como Directorio Activo (AD), consiste en una herramienta propiedad de Microsoft (Gigante tecnológico del <em>software</em> proveedores de los sistemas operativos Windows, <em>software</em> ofimático MS Office, entre otros servicios en la nube) que brinda servicios de directorio comúnmente en una red LAN.
-          .cajon.color-acento-botones.p-4.mb-4(data-aos="fade-left")
+          .bgr_5.p-4.mb-4(data-aos="fade-left")
             p.m-0 En el siguiente recurso, encontrará información en detalle del <em>Active Directory</em>, le invitamos a consultarlo:
       
       .row.mb-5
@@ -391,16 +391,48 @@
                   i.fas.fa-link
     
       .row
-        .col-12.col-md-5.col-lg-5
+        .col-12.col-md-5.col-lg-5(data-aos="zoom-in-up")
           figure
             img(src='@/assets/curso/temas/tema1/t1-39.png', alt='1-39')
-        .col-12.col-md-7.mb-5.mb-md-0.col-lg-7
+        .col-md-7.mb-5.mb-md-0
           LineaTiempoD.color-acento-contenido
-            p.text-small(numero="1" titulo="Relaciones de confianza") Existen entre dos dominios / bosques de <em>Active Directory</em> la relación de confianza, que consiste en un vínculo de confianza el cual permite a los usuarios autenticados acceder a los recursos de otro dominio.
+            .row(numero="1" titulo="Relaciones de confianza")
+              .col-md-12.mb-4.mb-md-0
+                p.text-small Existen entre dos dominios / bosques de <em>Active Directory</em> la relación de confianza, que consiste en un vínculo de confianza el cual permite a los usuarios autenticados acceder a los recursos de otro dominio.
+                p.text-small Las relaciones de confianza pueden ser:
+                figure
+                  img(src='@/assets/curso/temas/tema1/t1-40.svg', alt='1-40')
+            .row(numero="2" titulo="Replicación de objetos")
+              .col-md-12.mb-4.mb-md-0
+                p.text-small <em>Active directory</em> puede ser replicado por medio del método de transferir y actualizar objetos del controlador de dominio a otro controlador de dominio, por ejemplo, se podría replicar un controlador de dominio local a uno en la nube.
+                .bgr_5.p-4.mb-4
+                  p.m-0.text-small Algo fundamental para la correcta replicación de objetos son las conexiones entre los controladores de dominios, ya que se apropian con base en la ubicación de los dominios dentro de un bosque. Los dominios deben estar conectados por medio de una o más subredes, de esta manera estarán en segmentos de red por medio de intervalo de direcciones IP asociadas al dominio. Cuando se asigna el direccionamiento IP de un controlador de dominio a una subred, <em>Active Directory</em> reconoce los controladores de dominio que se encuentran en asociados a los dominios. Las conexiones de los dominio o sitios son configuradas de manera que se interconecten para garantizar la replicación de los objetos de <em>Active Directory</em> de los dominios.
+            
+            .row(numero="3" titulo="Replicación de objetos")
+              .col-md-12.mb-4.mb-md-0
+                p.text-small redundancia en servicios de directorio o en #[em.color Active Directory] consiste en una estrategia para garantizar la disponibilidad del controlador de dominio, por medio de la agregación de controladores de dominio adicionales alternos a un dominio, mejorando las solicitudes de autenticación y búsquedas en el servidor del catálogo global. 
+                p.text-small.color También ayuda a que los servicios de dominio de <em>Active Directory</em> resuelvan problemas o errores de <em>hardware, software</em> o del administrador (SysAdmin).
+                .bloque-texto-e.bgr_12.p-4
+                  .bloque-texto-e__texto
+                    i.color_2.fas.fa-quote-left
+                    br
+                    br
+                    p.text-small.text-white Una de las opciones para la redundancia es realizar #[strong “Configuración de redundancia geográfica con Replicación de SQL Server”] como lo sugiere Microsoft en su portal, la compañía asegura lo siguiente, #[strong “Si usa SQL Server como base de datos de configuración de AD FS] #[em (Active Directory Federation Services)], #[strong puede configurar la redundancia geográfica para la granja de servidores AD FS mediante SQL Server replicación. La redundancia geográfica replica los datos entre dos sitios geográficamente lejanos para que las aplicaciones puedan cambiar de un sitio a otro. De este modo, en caso de error de un sitio, todavía puede tener todos los datos de configuración disponibles en el segundo sitio.”] 
+                    br
+                    br
+                    div.justify-end
+                      p.text-white.text.small Microsoft (2021)
+                      i.color_3.fas.fa-square-full
+                .bgr_5.p-4.mt-3
+                  p.m-0.text-small Otras formas de replicación involucran la instalación y configuración de servidores de controladores de dominio en sitios o nubes alternas.
+                  
+          
 
-            p.text-small(numero="2" titulo="Replicación de objetos") <em>Active directory</em> puede ser replicado por medio del método de transferir y actualizar objetos del controlador de dominio a otro controlador de dominio, por ejemplo, se podría replicar un controlador de dominio local a uno en la nube.
+           
 
-            p.text-small(numero="3" titulo="Redundancia") La redundancia en servicios de directorio o en <em>Active Directory</em> consiste en una estrategia para garantizar la disponibilidad del controlador de dominio, por medio de la agregación de controladores de dominio adicionales alternos a un dominio, mejorando las solicitudes de autenticación y búsquedas en el servidor del catálogo global. También ayuda a que los servicios de dominio de <em>Active Directory</em> resuelvan problemas o errores de <em>hardware, software</em> o del administrador (SysAdmin) 
+            
+    
+    
             
 
 </template>
