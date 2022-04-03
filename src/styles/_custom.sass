@@ -1,4 +1,368 @@
+.img30
+   max-width: 30px !important
+.img70
+   max-width: 70px !important
+.img90
+  max-width: 90px !important
+.img120
+  max-width: 120px !important
+.img160
+  max-width: 160px !important
+.img200
+  max-width: 200px !important
+.img250
+  max-width: 250px !important
+.img350
+  max-width: 350px !important
+.img450
+  max-width: 450px !important
+.img600
+  max-width: 600px !important
+.img900
+  max-width: 900px !important
+
+
+.color
+  color: #1565C0
+  &_1
+    color: #2EC49F
+  &_2
+    color: $white
+
+.justify-center
+  display: flex
+  justify-content: center
+  flex-direction: row
+.justify-end
+  display: flex
+  justify-content: flex-end
+  flex-direction: row
+.align-items-center
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+
+.mtop
+  margin-top: 4rem !important
+  @media screen and ( max-width: 400px)
+    margin-top: 1rem !important
+  &_1
+    margin-top: 4rem !important
+    @media screen and ( max-width: 400px)
+      margin-top: 1rem !important
+  &_2
+    margin-top: 6rem !important
+    @media screen and ( max-width: 400px)
+      margin-top: 16rem !important
+hr
+  height: 3px !important
+  border-color: $black !important
+  background-color: $black !important
+
 .banner-interno__fondo
   background-image: url("../assets/curso/portada/interno.png") !important
   background-repeat: no-repeat
   background-color: #F8F5F4 !important
+.bgr
+  background: rgb(222,222,222)
+  background: linear-gradient(180deg, rgba(222,222,222,1) 0%, rgba(255,255,255,1) 50%, rgba(222,222,222,1) 100%)
+  border-radius: 10px
+  position: absolute
+  bottom: -40%
+  @media screen and ( max-width: 400px)
+    bottom: -130%
+  &_1
+    background-color: $white
+    margin-left: -9rem
+    z-index: 999
+    @media only screen and (max-width: 999px)
+      margin-left: 0
+    
+  &_2
+    background-color: #12263F
+    &::before
+      background-color: #EFEDED
+    
+  &_3
+    background-color: #F59D36
+    width: fit-content
+    
+  &_4
+    background: rgb(3,155,229)
+    background: linear-gradient(180deg, rgba(3,155,229,1) 0%, rgba(2,127,188,1) 100%)
+    width: fit-content
+  &_5
+    position: relative
+    background-color: #FFFAD8
+    &::before
+      background-color: #EFD198
+      content: ''
+      display: block
+      width: 25px
+      height: 10px
+      position: absolute
+      top: 0
+      left: 0 
+  &_6
+    position: relative
+    background-color: #FFFAD8
+    margin-left: -6rem
+    @media only screen and (max-width: 999px)
+      margin-left: 0
+    &::before
+      background-color: #EFD198
+      content: ''
+      display: block
+      width: 25px
+      height: 10px
+      position: absolute
+      top: 0
+      left: 0
+  &_7
+    background: rgb(3,155,229)
+    background: linear-gradient(180deg, rgba(3,155,229,1) 0%, rgba(2,127,188,1) 100%)
+  &_8
+    background-color: #12263F
+  &_9
+    background-color: #FFFAD8
+    position: relative
+    margin-left: 8%
+    @media only screen and (max-width: 999px)
+      margin-left: 0
+    &::before
+      background-color: #EFD198
+      content: ''
+      display: block
+      width: 25px
+      height: 10px
+      position: absolute
+      top: 0
+      left: 0
+  &_10
+    background: rgb(222,222,222)
+    background: linear-gradient(180deg, rgba(222,222,222,1) 0%, rgba(255,255,255,1) 50%, rgba(222,222,222,1) 100%)
+    border-radius: 10px
+    position: absolute
+    bottom: -40%
+    @media screen and ( max-width: 400px)
+      bottom: -248%
+  &_11
+    background: rgb(17,110,185);
+    background: linear-gradient(90deg, rgba(17,110,185,1) 0%, rgba(24,148,246,1) 100%);
+     
+.bg_grad-01
+  position: relative
+  .row, p, .cajon, .slyder-f
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: -1rem
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 100%
+    background-image: url("../assets/curso/temas/tema1/fondo1.svg")
+    background-repeat: no-repeat
+.bg_grad-02
+  position: relative
+  .row, p, .cajon
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 3rem
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 70%
+    background-image: url("../assets/curso/temas/tema1/fondo2.svg")
+    background-repeat: no-repeat
+    @media screen and ( max-width: 400px)
+      background-image: none
+.bg_grad-03
+  position: relative
+  .row, p, .bloque-texto-a, div, figure, .LineaTiempoD
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 3rem
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 100%
+    background-image: url("../assets/curso/temas/tema1/fondo3.svg")
+    background-repeat: no-repeat
+.bg_grad-04
+  position: relative
+  .row, p, .cajon
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 3rem
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 100%
+    background-image: url("../assets/curso/temas/tema1/fondo4.svg")
+    background-repeat: no-repeat
+    @media screen and ( max-width: 400px)
+      background-image: none
+.bg_grad-05
+  position: relative
+  .tirulo-sexto, figure, .LineaTiempoD
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 3rem
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 100%
+    background-image: url("../assets/curso/temas/tema1/fondo5.svg")
+    background-repeat: no-repeat
+    background-size: cover
+.bg_grad-06
+  position: relative
+  .row, p, .cajon
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 3rem
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 85%
+    background-image: url("../assets/curso/temas/tema1/fondo4.svg")
+    background-repeat: no-repeat
+    @media screen and ( max-width: 400px)
+      background-image: none
+.bg_grad-07
+  position: relative
+  .row, p, .cajon
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 3rem
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 85%
+    background-image: url("../assets/curso/temas/tema1/fondo6.svg")
+    background-repeat: no-repeat
+    background-size: cover
+.bg_grad-08
+  position: relative
+  .row, p, .SlyderA, .tarjeta
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 0
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 100%
+    background-image: url("../assets/curso/temas/tema1/fondo7.svg")
+    background-repeat: no-repeat
+    background-size: cover
+    
+.posit-1
+  position: absolute
+  bottom: -15%
+  left: 84%
+  @media screen and ( max-width: 400px)
+    bottom: -8%
+    left: 68%
+.posit-2
+  position: absolute
+  bottom: -3%
+  left: 73%
+  @media screen and ( max-width: 400px)
+    bottom: 2%
+    left: 68% 
+.posit-3
+  margin-top: -15%;
+  margin-left: 19%;
+.posit-4
+  position: absolute
+  bottom: 35%
+  left: 84%
+  @media screen and ( max-width: 400px)
+    bottom: -8%
+    left: 68% 
+.posit-5
+  position: absolute
+  top: -18%
+  left: 0%
+  @media screen and ( max-width: 400px)
+    top: 22%
+    left: 0%
+.posit-6
+  position: absolute
+  top: -18%
+  left: 39%
+  @media screen and ( max-width: 400px)
+    top: 22%
+    left: 0%
+.posit-7
+  position: absolute
+  top: -1%
+  left: 0%
+  @media screen and ( max-width: 400px)
+    top: 30%
+    left: 0%
+.posit-8
+  position: absolute
+  top: 5%
+  left: 39%
+  @media screen and ( max-width: 400px)
+    top: 35%
+    left: 0%
+.posit-9
+  position: absolute
+  top: 3%
+  left: 0%
+  @media screen and ( max-width: 400px)
+    top: 35%
+    left: 0%
+
+
+.video iframe
+  margin-top: 57px 
+  @media screen and ( max-width: 400px)
+    margin-top: 180px  
+
+.tarjeta-avatar-b .tarjeta 
+  width: 100% 
+  margin-left: -14% !important
+  padding-left: 5% !important
+  @media screen and ( max-width: 400px)
+    margin-left: -10% !important
+.tarjeta--azul
+  background-color: #F6F6F6 !important
+.tarjeta-avatar-b__img 
+  @media screen and ( max-width: 400px)
+    min-width: 24%
+    max-width: 20%
+    position: relative
+    display: flex
+    top: -136px
+.tarjeta--boton
+  height: 100%
+.cajon-b.color-primario:before 
+  background-color: #D1E8FF !important
+.cajon-b:before 
+    content: ''
+    display: block
+    position: absolute
+    opacity: .35
+    top: 149px !important
+    left: 98px !important
+    right: 3% !important
+    bottom: 15% !important

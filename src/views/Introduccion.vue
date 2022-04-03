@@ -3,28 +3,24 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
   
-    .titulo-principal
+    .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span
           i.fas.fa-info
       h1 Introducción
+    
+    figure.position-relative.mb-5(data-aos="zoom-in-up")
+      img.d-none.d-lg-flex(src='@/assets/curso/portada/intro.png', alt='introducción')
+      img.d-flex.d-lg-none(src='@/assets/curso/portada/intro2.png', alt='introducción')
+      .bgr.m-3.p-4.m-lg-5.p-lg-4
+        p.m-0 Le damos la bienvenida al componente formativo “Diseño y documentación de propuesta para servicios en la nube”. Para comenzar el recorrido por el mismo, visite el recurso didáctico que se muestra a continuación:
     
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video: Leyenda del video
     
-    p.mb-5 La necesidad de mitigar la pandemia por COVID-19 ha obligado a la comunidad científica internacional, a desarrollar una serie de investigaciones y desarrollos tendientes a presentar una vacuna para hacerle frente a esta enfermedad que aumenta día a día su morbi mortalidad en Colombia. Es así, como en diciembre de 2020, la comunidad científica presenta los resultados de varios desarrollos de vacunas, que ofrecen eficacia y seguridad, respaldados por estudios clínicos rigurosos.
-
-    figure.mb-5
-      img(src="@/assets/curso/banner-intro.jpg", alt="Texto que describa la imagen")
-      figcaption Imagen 1. Vacunación
-
-    p.mb-0 La llegada de nuevas vacunas al país supone un reto para el talento humano en salud responsable de la vacunación y desarrollar habilidades para ofrecer una orientación oportuna y segura a las personas objeto de la vacuna.
-      br
-      br
-      | En ese orden de ideas, este componente formativo guía al aprendiz hacia la identificación de los aspectos normativos, técnicos y operativos de la vacunación contra COVID19 en Colombia y de las generalidades de la infección por SARS-2 COVID 19.
-
+    
 </template>
 
 <script>
