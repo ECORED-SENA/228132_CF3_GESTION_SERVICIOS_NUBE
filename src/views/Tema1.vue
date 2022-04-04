@@ -48,7 +48,7 @@
 
     separador
 
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+    #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.1  Conceptos de dominio
     
     .bg_grad-02
@@ -72,7 +72,7 @@
     
     separador
 
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+    #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.2  Estructura física y lógica
     
     .bg_grad-03
@@ -98,11 +98,11 @@
             img(src='@/assets/curso/temas/tema1/t1-13.png', alt='1-13')
         .col-md-6.mb-5.mb-md-0
           LineaTiempoD.color-acento-contenido
-            p.text-small(numero="1" titulo="Unidad Organizativa") Una Unidad Organizacional (OU) es un objeto contenedor que se usa para organizar objetos (como cuentas de usuario, grupos, equipos, impresoras y otras OU´s.) dentro de un dominio. Las OU proveen un mecanismo sencillo para agrupar usuarios y es la unidad más pequeña a la que se le pueden asignar configuraciones de Políticas de grupo. SANS Institute (2003).
+            p.m-0.text-small(numero="1" titulo="Unidad Organizativa") Una Unidad Organizacional (OU) es un objeto contenedor que se usa para organizar objetos (como cuentas de usuario, grupos, equipos, impresoras y otras OU´s.) dentro de un dominio. Las OU proveen un mecanismo sencillo para agrupar usuarios y es la unidad más pequeña a la que se le pueden asignar configuraciones de Políticas de grupo. SANS Institute (2003).
             
-            p.text-small(numero="2" titulo="Árbo") Consiste en uno o varios dominios, organizados jerárquicamente y que dependen de una raíz común, a esto se le conoce como DNS común. De esta manera se pueden diferenciar o identificar un dominio de otro. Por ejemplo, un dominio midominio.local puede tener un subdominio que compone dicho árbol, entonces podría tener otro subdominio así works.midominio.local, y si se tiene otro dominio de nombre otro dominio.local, es fácil identificar que son arboles diferentes con respecto al anterior.
+            p.m-0.text-small(numero="2" titulo="Árbo") Consiste en uno o varios dominios, organizados jerárquicamente y que dependen de una raíz común, a esto se le conoce como DNS común. De esta manera se pueden diferenciar o identificar un dominio de otro. Por ejemplo, un dominio midominio.local puede tener un subdominio que compone dicho árbol, entonces podría tener otro subdominio así works.midominio.local, y si se tiene otro dominio de nombre otro dominio.local, es fácil identificar que son arboles diferentes con respecto al anterior.
             
-            p.text-small(numero="3" titulo="Bosque") Un bosque se compone de todos los dominios existentes, dentro del servidor de dominio. Se crean relaciones de confianza transitivas o intransitivas que están construidas automáticamente por el directorio activo para cada dominio, las cuales pueden ser modificadas posteriormente.
+            p.m-0.text-small(numero="3" titulo="Bosque") Un bosque se compone de todos los dominios existentes, dentro del servidor de dominio. Se crean relaciones de confianza transitivas o intransitivas que están construidas automáticamente por el directorio activo para cada dominio, las cuales pueden ser modificadas posteriormente.
           .row.mt-3
             .col-2.col-md-1.col-lg-1.align-items-center
               figure.justify-center
@@ -120,7 +120,7 @@
 
     separador
 
-    .titulo-segundo.color-acento-contenido.mb-3(data-aos="fade-right")
+    #t_1_3.titulo-segundo.color-acento-contenido.mb-3(data-aos="fade-right")
       h2 1.3  Cuentas
 
     .bg_grad-04.mb-5
@@ -135,7 +135,7 @@
                 img.d-flex.d-lg-none(src='@/assets/curso/temas/tema1/t1-8.svg', alt='1-8')
             .col-10.col-md-11.col-lg-11
               p.m-0.color Las cuentas de usuario también sirven para tener mayor control en los servicios y aplicaciones, pues se pueden considerar como entidades de seguridad que se utilizan para proteger y administrar el acceso a los recursos en un servidor independiente o miembro para servicios o usuarios.
-          p Las cuentas de usuario se pueden agrupar de la siguiente manera.
+          p Las cuentas de usuario se pueden agrupar de la siguiente manera:
 
         .col-12.col-md-5.col-lg-5.order-1.order-md-2(data-aos="zoom-in-up")
           figure.justify-center
@@ -259,7 +259,7 @@
 
     separador
 
-    .titulo-segundo.color-acento-contenido.mb-3(data-aos="fade-right")
+    #t_1_4.titulo-segundo.color-acento-contenido.mb-3(data-aos="fade-right")
       h2 1.4  Directorios y objetos en general
 
     figure.position-relative.mb-5(data-aos="zoom-in-up")
@@ -295,7 +295,7 @@
     
     separador
 
-    .titulo-segundo.color-acento-contenido.mb-3(data-aos="fade-right")
+    #t_1_5.titulo-segundo.color-acento-contenido.mb-3(data-aos="fade-right")
       h2 1.5  Políticas de dominio
     
     .bg_grad-02
@@ -405,16 +405,16 @@
             .row(numero="2" titulo="Replicación de objetos")
               .col-md-12.mb-4.mb-md-0
                 p.text-small <em>Active directory</em> puede ser replicado por medio del método de transferir y actualizar objetos del controlador de dominio a otro controlador de dominio, por ejemplo, se podría replicar un controlador de dominio local a uno en la nube.
-                .bgr_5.p-4.mb-4
+                .bgr_5.p-4
                   p.m-0.text-small Algo fundamental para la correcta replicación de objetos son las conexiones entre los controladores de dominios, ya que se apropian con base en la ubicación de los dominios dentro de un bosque. Los dominios deben estar conectados por medio de una o más subredes, de esta manera estarán en segmentos de red por medio de intervalo de direcciones IP asociadas al dominio. Cuando se asigna el direccionamiento IP de un controlador de dominio a una subred, <em>Active Directory</em> reconoce los controladores de dominio que se encuentran en asociados a los dominios. Las conexiones de los dominio o sitios son configuradas de manera que se interconecten para garantizar la replicación de los objetos de <em>Active Directory</em> de los dominios.
             
             .row(numero="3" titulo="Replicación de objetos")
               .col-md-12.mb-4.mb-md-0
                 p.text-small redundancia en servicios de directorio o en #[em.color Active Directory] consiste en una estrategia para garantizar la disponibilidad del controlador de dominio, por medio de la agregación de controladores de dominio adicionales alternos a un dominio, mejorando las solicitudes de autenticación y búsquedas en el servidor del catálogo global. 
-                p.text-small.color También ayuda a que los servicios de dominio de <em>Active Directory</em> resuelvan problemas o errores de <em>hardware, software</em> o del administrador (SysAdmin).
+                p.text-small.color.mb-4.mb-md-5.mb-lg-5 También ayuda a que los servicios de dominio de <em>Active Directory</em> resuelvan problemas o errores de <em>hardware, software</em> o del administrador (SysAdmin).
                 .bloque-texto-e.bgr_12.p-4
-                  .bloque-texto-e__texto
-                    i.color_2.fas.fa-quote-left
+                  .bloque-texto-e__texto.position-relative
+                    img.posit-10(src='@/assets/curso/temas/tema1/t1-41.svg', alt='1-41')
                     br
                     br
                     p.text-small.text-white Una de las opciones para la redundancia es realizar #[strong “Configuración de redundancia geográfica con Replicación de SQL Server”] como lo sugiere Microsoft en su portal, la compañía asegura lo siguiente, #[strong “Si usa SQL Server como base de datos de configuración de AD FS] #[em (Active Directory Federation Services)], #[strong puede configurar la redundancia geográfica para la granja de servidores AD FS mediante SQL Server replicación. La redundancia geográfica replica los datos entre dos sitios geográficamente lejanos para que las aplicaciones puedan cambiar de un sitio a otro. De este modo, en caso de error de un sitio, todavía puede tener todos los datos de configuración disponibles en el segundo sitio.”] 
@@ -425,14 +425,6 @@
                       i.color_3.fas.fa-square-full
                 .bgr_5.p-4.mt-3
                   p.m-0.text-small Otras formas de replicación involucran la instalación y configuración de servidores de controladores de dominio en sitios o nubes alternas.
-                  
-          
-
-           
-
-            
-    
-    
             
 
 </template>

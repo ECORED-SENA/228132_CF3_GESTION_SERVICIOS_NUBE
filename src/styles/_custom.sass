@@ -57,6 +57,10 @@
     margin-top: 6rem !important
     @media screen and ( max-width: 400px)
       margin-top: 16rem !important
+  &_3
+    margin-top: 7rem !important
+    @media screen and ( max-width: 400px)
+      margin-top: 9rem !important
 hr
   height: 3px !important
   border-color: $black !important
@@ -156,6 +160,35 @@ hr
     background: rgb(46,196,159);
     background: linear-gradient(232deg, rgba(46,196,159,1) 0%, rgba(43,57,144,1) 100%); 
     border-radius: 10px
+  &_13
+    background-color: $white
+    margin-left: -9rem
+    margin-top: -2rem
+    position: absolute
+    z-index: 999
+    @media only screen and (max-width: 999px)
+      margin-left: 0
+  &_14
+    background: rgb(3,155,229)
+    background: linear-gradient(180deg, rgba(3,155,229,1) 0%, rgba(2,127,188,1) 100%)
+    width: fit-content
+    top: -15px
+  &_15
+    background-color: #F6F6F6
+    &::before
+      background: rgb(3,155,229)
+      background: linear-gradient(180deg, rgba(3,155,229,1) 0%, rgba(2,127,188,1) 100%) 
+      content: ''
+      display: block
+      position: absolute
+      top: 0
+      bottom: 0
+      left: 50%
+      right: 0
+  &_16
+    background-color: #12263F
+    width: fit-content
+    
 .bg_grad-01
   position: relative
   .row, p, .cajon, .slyder-f
@@ -277,6 +310,36 @@ hr
     background-image: url("../assets/curso/temas/tema1/fondo7.svg")
     background-repeat: no-repeat
     background-size: cover
+.bg_grad-09
+  position: relative
+  .row, p, .SlyderA, .tarjeta
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 0
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 100%
+    background-image: url("../assets/curso/temas/tema5/fondo1.svg")
+    background-repeat: no-repeat
+    background-size: cover
+.bg_grad-10
+  position: relative
+  .row, p, div
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 0
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 100%
+    background-image: url("../assets/curso/temas/tema3/fondo2.svg")
+    background-repeat: no-repeat
+    background-size: cover
     
 .posit-1
   position: absolute
@@ -337,12 +400,34 @@ hr
   @media screen and ( max-width: 400px)
     top: 35%
     left: 0%
-
-
-.video iframe
-  margin-top: 57px 
+.posit-10
+  position: absolute
+  max-width: 75px
+  top: -15%
+  left: 0%
   @media screen and ( max-width: 400px)
-    margin-top: 180px  
+    top: -7%
+    left: 0%
+.posit-11
+  margin-top: -15%;
+.posit-12
+  position: absolute
+  bottom: -35%
+  left: 35%
+  @media screen and ( max-width: 400px)
+    bottom: -23%
+    left: 30% 
+.posit-13
+  padding-top: 45px;
+  padding-bottom: 27px;
+  
+
+
+.video1
+  & iframe
+  margin-top: 98px 
+  @media screen and ( max-width: 400px)
+    margin-top: 220px  
 
 .tarjeta-avatar-b .tarjeta 
   width: 100% 
@@ -372,3 +457,5 @@ hr
     left: 98px !important
     right: 3% !important
     bottom: 15% !important
+.tarjeta--gris 
+  background-color: #E5E5E5 
