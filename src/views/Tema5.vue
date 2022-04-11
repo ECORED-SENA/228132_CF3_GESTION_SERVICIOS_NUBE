@@ -22,7 +22,7 @@
                   .col.mb-3.mb-sm-0.text-white
                     p.text-small Para este componente es necesario para la seguridad en la nube adoptar los puntos 11, 11.1, 11.1.1, 11.1.2, 11.2, 11.3, 11.4, 11.5 de la guía 12 del modelo MSPI del ministerio TIC, “5482_G12- Seguridad en la nube, el cual puede consultar en el enlace:   
                   .col-sm-auto
-                    a.boton.color-acento-botones.text-black(href="https://mintic.gov.co/gestionti/615/articles-5482_G12_Seguridad_Nube.pdf" target="_blank")
+                    a.boton.color-acento-botones.text-black(href="/downloads/seguridad-nube.pdf" target="_blank")
                       span Abrir enlace
                       i.fas.fa-link
           div.p-2.p-md-3.bgr_13

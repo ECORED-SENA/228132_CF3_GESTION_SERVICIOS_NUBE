@@ -9,7 +9,7 @@
     
     .bg_grad-02
       .row.mb-3
-        .col-12.col-md-5.col-lg-5(data-aos="zoom-in-up")
+        .col-12.col-md-5.col-lg-5(data-aos="fade-right")
           figure.justify-center
             img(src='@/assets/curso/tema2/t2-1.png', alt='2-1')
         .col-12-col-md-7.col-lg-7.mtop
