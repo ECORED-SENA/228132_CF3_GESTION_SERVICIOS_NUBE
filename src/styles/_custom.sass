@@ -1,5 +1,7 @@
 .img30
    max-width: 30px !important
+.img50
+   max-width: 50px !important
 .img70
    max-width: 70px !important
 .img90
@@ -18,8 +20,11 @@
   max-width: 450px !important
 .img600
   max-width: 600px !important
+.img700
+  max-width: 700px !important
 .img900
   max-width: 900px !important
+
 
 
 .color
@@ -31,6 +36,9 @@
   &_3
     color: #12263F !important
     font-size: 1.5em !important
+  &_4
+    color: $black
+  
 
 .justify-center
   display: flex
@@ -41,9 +49,13 @@
   justify-content: flex-end
   flex-direction: row
 .align-items-center
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: row;
+  display: flex
+  justify-content: flex-start
+  flex-direction: row
+.align-items-end
+  display: flex
+  justify-content: flex-end
+  flex-direction: row
 
 .mtop
   margin-top: 4rem !important
@@ -61,6 +73,16 @@
     margin-top: 7rem !important
     @media screen and ( max-width: 400px)
       margin-top: 9rem !important
+  &_4
+    margin-top: 5rem !important
+    @media screen and ( max-width: 400px)
+      margin-top: 2rem !important
+.ptop
+  padding-top: 4rem !important
+.pstar
+  padding-left: 5rem !important
+  @media screen and ( max-width: 400px)
+    padding-left: 1rem !important
 hr
   height: 3px !important
   border-color: $black !important
@@ -188,6 +210,25 @@ hr
   &_16
     background-color: #12263F
     width: fit-content
+  &_17
+    background: rgb(46,196,159);
+    background: linear-gradient(312deg, rgba(46,196,159,1) 0%, rgba(43,57,144,1) 100%);
+    height: 100%
+    border-radius: 10px
+  &_18
+    color: #2EC49F
+  &_19
+    color: #F59D36
+  &_20
+    background: rgb(46,196,159);
+    background: linear-gradient(90deg, rgba(46,196,159,1) 0%, rgba(43,57,144,1) 100%);
+  &_21
+    border-top-color: #1565C0
+  &_22
+    background-color: $white
+  &_23
+    color: #039BE5
+    
     
 .bg_grad-01
   position: relative
@@ -201,7 +242,7 @@ hr
     left: 0
     width: calc( 100% + 6rem)
     height: 100%
-    background-image: url("../assets/curso/temas/tema1/fondo1.svg")
+    background-image: url("../assets/curso/tema1/fondo1.svg")
     background-repeat: no-repeat
 .bg_grad-02
   position: relative
@@ -215,7 +256,7 @@ hr
     left: 0
     width: calc( 100% + 6rem)
     height: 70%
-    background-image: url("../assets/curso/temas/tema1/fondo2.svg")
+    background-image: url("../assets/curso/tema1/fondo2.svg")
     background-repeat: no-repeat
     @media screen and ( max-width: 400px)
       background-image: none
@@ -231,7 +272,7 @@ hr
     left: 0
     width: calc( 100% + 6rem)
     height: 100%
-    background-image: url("../assets/curso/temas/tema1/fondo3.svg")
+    background-image: url("../assets/curso/tema1/fondo3.svg")
     background-repeat: no-repeat
 .bg_grad-04
   position: relative
@@ -245,7 +286,7 @@ hr
     left: 0
     width: calc( 100% + 6rem)
     height: 100%
-    background-image: url("../assets/curso/temas/tema1/fondo4.svg")
+    background-image: url("../assets/curso/tema1/fondo4.svg")
     background-repeat: no-repeat
     @media screen and ( max-width: 400px)
       background-image: none
@@ -261,7 +302,7 @@ hr
     left: 0
     width: calc( 100% + 6rem)
     height: 100%
-    background-image: url("../assets/curso/temas/tema1/fondo5.svg")
+    background-image: url("../assets/curso/tema1/fondo5.svg")
     background-repeat: no-repeat
     background-size: cover
 .bg_grad-06
@@ -276,7 +317,7 @@ hr
     left: 0
     width: calc( 100% + 6rem)
     height: 85%
-    background-image: url("../assets/curso/temas/tema1/fondo4.svg")
+    background-image: url("../assets/curso/tema1/fondo4.svg")
     background-repeat: no-repeat
     @media screen and ( max-width: 400px)
       background-image: none
@@ -292,7 +333,7 @@ hr
     left: 0
     width: calc( 100% + 6rem)
     height: 85%
-    background-image: url("../assets/curso/temas/tema1/fondo6.svg")
+    background-image: url("../assets/curso/tema1/fondo6.svg")
     background-repeat: no-repeat
     background-size: cover
 .bg_grad-08
@@ -307,7 +348,7 @@ hr
     left: 0
     width: calc( 100% + 6rem)
     height: 100%
-    background-image: url("../assets/curso/temas/tema1/fondo7.svg")
+    background-image: url("../assets/curso/tema1/fondo7.svg")
     background-repeat: no-repeat
     background-size: cover
 .bg_grad-09
@@ -322,7 +363,7 @@ hr
     left: 0
     width: calc( 100% + 6rem)
     height: 100%
-    background-image: url("../assets/curso/temas/tema5/fondo1.svg")
+    background-image: url("../assets/curso/tema5/fondo1.svg")
     background-repeat: no-repeat
     background-size: cover
 .bg_grad-10
@@ -337,9 +378,140 @@ hr
     left: 0
     width: calc( 100% + 6rem)
     height: 100%
-    background-image: url("../assets/curso/temas/tema3/fondo2.svg")
+    background-image: url("../assets/curso/tema3/fondo2.svg")
     background-repeat: no-repeat
     background-size: cover
+.bg_grad-11
+  position: relative
+  .row, p, .cajon, div, figure
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 3rem
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 91%
+    background-image: url("../assets/curso/tema2/fondo1.svg")
+    background-repeat: no-repeat
+    background-size: cover
+.bg_grad-12
+  position: relative
+  .row, p, .cajon, div, figure
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 3rem
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 91%
+    background-image: url("../assets/curso/tema2/fondo2.svg")
+    background-repeat: no-repeat
+    background-size: cover
+.bg_grad-13
+  position: relative
+  .row, p, h5, figure, 
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 3rem
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 100%
+    background-image: url("../assets/curso/tema2/fondo3.svg")
+    background-repeat: no-repeat
+    background-size: contain
+    @media screen and ( max-width: 400px)
+      background-image: none
+.bg_grad-14
+  position: relative
+  .row, p, h5, figure, 
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 3rem
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 100%
+    background-image: url("../assets/curso/tema4/fondo1.svg")
+    background-repeat: no-repeat
+    background-size: contain
+    @media screen and ( max-width: 400px)
+      background-image: none
+.bg_grad-15
+  position: relative
+  .row, p, h5, figure, .linea-tiempo-d 
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 3rem
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 100%
+    background-image: url("../assets/curso/tema4/fondo2.svg")
+    background-repeat: no-repeat
+    background-size: cover
+    @media screen and ( max-width: 400px)
+      background-image: none
+.bg_grad-16
+  position: relative
+  .row, p, .cajon, div
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 3rem
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 100%
+    background-image: url("../assets/curso/tema4/fondo3.svg")
+    background-repeat: no-repeat
+    @media screen and ( max-width: 400px)
+      background-image: none
+.bg_grad-17
+  position: relative
+  .row, p, .cajon
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 3rem
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 100%
+    background-image: url("../assets/curso/tema2/fondo4.svg")
+    background-repeat: no-repeat
+    @media screen and ( max-width: 400px)
+      background-image: none
+.bg_grad-18
+  position: relative
+  .row, p, .cajon
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 3rem
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 100%
+    background-image: url("../assets/curso/tema4/fondo1.svg")
+    background-repeat: no-repeat
+    @media screen and ( max-width: 400px)
+      background-image: none
+.bg_img
+  background-image: url("../assets/curso/tema2/t2-11.svg")
     
 .posit-1
   position: absolute
@@ -420,9 +592,40 @@ hr
 .posit-13
   padding-top: 45px;
   padding-bottom: 27px;
-  
-
-
+.posit-14
+  margin-top: 5rem
+  margin-bottom: 3rem
+  @media screen and ( max-width: 400px)
+    margin-top: 60%
+.posit-15
+  margin-left: -30%
+  @media screen and ( max-width: 400px)
+    margin-left: 5%
+.posit-16
+  margin-top: 16%
+  @media screen and ( max-width: 400px)
+    margin-top: 70%
+.posit-17
+  margin-left: 6%
+  @media screen and ( max-width: 400px)
+    margin-left: none
+.posit-18
+  position: absolute
+  bottom: 0%
+  left: 84%
+  @media screen and ( max-width: 400px)
+    bottom: 0%
+    left: 68%
+.posit-19
+  margin-right: -28%
+  @media screen and ( max-width: 400px)
+    margin-right: 0%
+.posit-20
+  margin-top: 7%
+  @media screen and ( max-width: 400px)
+    margin-top: 0
+.posit-21
+  scroll-padding-top: 4rem
 .video1
   & iframe
   margin-top: 98px 
@@ -435,6 +638,20 @@ hr
   padding-left: 5% !important
   @media screen and ( max-width: 400px)
     margin-left: -10% !important
+.tarjeta-avatar-b .tarjeta2 
+  width: 100% 
+  margin-left: -6% !important
+  padding-left: 5% !important
+  border-radius: 20px
+  @media screen and ( max-width: 400px)
+    margin-left: -10% !important
+.tarjeta-avatar-b .tarjeta3 
+  width: 100% 
+  margin-left: -10% !important
+  padding-left: 5% !important
+  border-radius: 20px
+  @media screen and ( max-width: 400px)
+    margin-left: -10% !important
 .tarjeta--azul
   background-color: #F6F6F6 !important
 .tarjeta-avatar-b__img 
@@ -444,6 +661,45 @@ hr
     position: relative
     display: flex
     top: -136px
+.tarjeta-avatar-b__img2
+  min-width: 20%;
+  max-width: 20%;
+  position: relative;
+  display: flex;
+  align-items: center; 
+  @media screen and ( max-width: 400px)
+    min-width: 24%
+    max-width: 20%
+    position: relative
+    display: flex
+    top: -70px
+    margin-left: -15%
+.tarjeta-avatar-b__img3
+  min-width: 20%;
+  max-width: 20%;
+  position: relative;
+  display: flex;
+  align-items: center; 
+  @media screen and ( max-width: 400px)
+    min-width: 24%
+    max-width: 20%
+    position: relative
+    display: flex
+    top: -120px
+    margin-left: -15%
+.tarjeta-avatar-b__img4
+  min-width: 20%;
+  max-width: 20%;
+  position: relative;
+  display: flex;
+  align-items: center; 
+  @media screen and ( max-width: 400px)
+    min-width: 24%
+    max-width: 20%
+    position: relative
+    display: flex
+    top: -120px
+    margin-left: 1%
 .tarjeta--boton
   height: 100%
 .cajon-b.color-primario:before 
@@ -459,3 +715,16 @@ hr
     bottom: 15% !important
 .tarjeta--gris 
   background-color: #E5E5E5 
+
+.tarjeta--boton 
+  background-color: #FFF
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px
+.tarjeta--boton.color-amarillo:hover
+  background-color: #5793CE
+  p 
+    font-weight: bold !important
+
+.lista-ul
+  margin-left: 30px
+.tabs-b.color-secundario .tabs-b__tab--active
+  border-top-color: #1565C0 !important

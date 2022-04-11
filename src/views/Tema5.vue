@@ -11,12 +11,12 @@
       .row.mb-3
         .col-12.col-md-5.col-lg-5(data-aos="zoom-in-up")
           figure.justify-center
-            img(src='@/assets/curso/temas/tema5/t5-1.png', alt='1-5')
+            img(src='@/assets/curso/tema5/t5-1.png', alt='1-5')
         .col-12-col-md7.col-lg-7.mtop
           .tarjeta.bgr_11.p-3.mb-5
             .row.justify-content-around.align-items-center
               .col-3.col-md-2.col-lg-2
-                img(src="@/assets/curso/temas/tema5/t5-2.svg")
+                img(src="@/assets/curso/tema5/t5-2.svg")
               .col-9
                 .row.justify-content-between.align-items-center
                   .col.mb-3.mb-sm-0.text-white
@@ -39,7 +39,7 @@
           p.m-0 Monitorizar la existencia de grandes movimientos internos de datos con herramientas de monitorización de actividad de bases de datos <em>(DAM - Database Activity Monitoring)</em> y de monitorización de actividad en archivos <em>(FAM - File Activity Monitoring).</em>
     
     figure.justify-center.mb-3(data-aos="zoom-in-up")
-      img.img900(src='@/assets/curso/temas/tema5/t5-3.svg', alt='5-3')
+      img.img900(src='@/assets/curso/tema5/t5-3.svg', alt='5-3')
     
     .bg_grad-04.mb-5
       .row.mb-3
@@ -62,13 +62,13 @@
                   | Los datos moviéndose entre instancias (u otros componentes) en un Cloud determinado. Hay tres opciones. 
         .col-12.col-md-5.col-lg-5.order-1.order-md-2(data-aos="zoom-in-up")
           figure.justify-center
-            img(src='@/assets/curso/temas/tema5/t5-4.png', alt='1-4')
+            img(src='@/assets/curso/tema5/t5-4.png', alt='1-4')
     
     .bg_grad-09
       .row
         .col-12.col-md-4.col-lg-4(data-aos="zoom-in-up")
           figure
-            img(src='@/assets/curso/temas/tema5/t5-5.svg', alt='5-5')
+            img(src='@/assets/curso/tema5/t5-5.svg', alt='5-5')
         .col-md-8.mb-5.mb-md-0
           LineaTiempoD.color-acento-contenido
             .row(numero="1" titulo="Cifrado Cliente/Aplicación")

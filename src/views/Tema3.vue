@@ -24,19 +24,19 @@
 
         .col-12.col-md-5.col-lg-5.order-1.order-md-2(data-aos="zoom-in-up")
           figure.justify-center
-            img(src='@/assets/curso/temas/tema3/t3-1.png', alt='3-1')
+            img(src='@/assets/curso/tema3/t3-1.png', alt='3-1')
     
     separador
     .bg_grad-01
       #t_3_1.titulo-segundo.color-acento-contenido.mb-3(data-aos="fade-right")
-          h2 3.1  Contenedores de software
+          h2 3.1  Contenedores de <em>software</em>
 
       p.mb-5 El término de contenedores se ha vuelto muy común en la jerga actual asociada a la administración de servicios de infraestructura, pero en esencia hace referencia a un modelo de virtualización repasado en el componente anterior, específicamente la virtualización a nivel de sistema operativo.
 
       .row.mb-3
         .col-12.col-md-6.col-lg-6(data-aos="zoom-in-up")
           figure.justify-center
-            img(src='@/assets/curso/temas/tema3/t3-2.svg', alt='3-2')
+            img(src='@/assets/curso/tema3/t3-2.svg', alt='3-2')
         .col-12.col-md-6.col-lg-6
           .bloque-texto-e.bgr_12.p-4
             .bloque-texto-e__texto.position-relative
@@ -76,7 +76,7 @@
       
       .col-12.col-md-5.col-lg-5.order-1.order-md-2(data-aos="zoom-in-up")
         figure
-          img(src='@/assets/curso/temas/tema3/t3-3.png', alt='3-3')
+          img(src='@/assets/curso/tema3/t3-3.png', alt='3-3')
     
     .bg_grad-10
       div.bgr_14.p-2.mb-3
@@ -84,13 +84,13 @@
       .row(data-aos="zoom-in-up")
         .col-12.col-md-4
           figure
-            img(src='@/assets/curso/temas/tema3/t3-4.svg', alt='3-4')
+            img(src='@/assets/curso/tema3/t3-4.svg', alt='3-4')
         .col-12.col-md-4
           figure
-            img(src='@/assets/curso/temas/tema3/t3-5.svg', alt='3-5')
+            img(src='@/assets/curso/tema3/t3-5.svg', alt='3-5')
         .col-12.col-md-4
           figure
-            img(src='@/assets/curso/temas/tema3/t3-6.svg', alt='3-6')
+            img(src='@/assets/curso/tema3/t3-6.svg', alt='3-6')
     
     separador
     
@@ -101,7 +101,7 @@
       .row.mb-3
         .col-12.col-md-5.col-lg-5(data-aos="fade-right")
           figure.justify-center
-            img(src='@/assets/curso/temas/tema3/t3-7.png', alt='3-7')
+            img(src='@/assets/curso/tema3/t3-7.png', alt='3-7')
         .col-12-col-md-7.col-lg-7.mtop
           div.p-2.p-md-3.bgr_1
             p.m-0 Hay similitudes y diferencias entre la forma en cómo estas dos tecnologías facilitan el proceso de virtualización de aplicaciones, razón por la cual es más conveniente una u otra dependiendo del contexto particular y las necesidades establecidas por la organización. 
@@ -123,7 +123,7 @@
             p En el caso de las tecnologías de contenedores, estos se construyen exclusivamente con las aplicaciones, librerías y archivos binarios a ser utilizados, y compartirán recursos con el sistema operativo anfitrión o máquina <em>host.</em>
     
     #t_3_3.titulo-segundo.color-acento-contenido.mb-3(data-aos="fade-right")
-      h2 3.3  Docker
+      h2 3.3  <em>Docker</em>
     
     .bg_grad-04.mb-3
       .row
@@ -133,7 +133,7 @@
           .tarjeta.bgr_11.p-3.mb-5
             .row.justify-content-around.align-items-center
               .col-3.col-md-2.col-lg-2
-                img(src="@/assets/curso/temas/tema5/t5-2.svg")
+                img(src="@/assets/curso/tema5/t5-2.svg")
               .col-9   
                 .row.justify-content-between.align-items-center.position-relative
                   .col.mb-3.mb-sm-0.text-white
@@ -148,7 +148,7 @@
             p.m-0 En el enlace anterior podrá encontrar el enlace acceso directo al proceso de descarga y también encontrará una descripción de los requerimientos específicos del sistema respecto a versiones de sistema operativo, memoria RAM mínima, procesadores compatibles entre otros requerimientos.  
         .col-12.col-md-5.col-lg-5.order-1.order-md-2(data-aos="zoom-in-up")
           figure.justify-center
-            img(src='@/assets/curso/temas/tema3/t3-8.png', alt='3-8')
+            img(src='@/assets/curso/tema3/t3-8.png', alt='3-8')
 
     div.bgr_14.p-2.mb-4
       h4.m-0.text-white Al desplegar el siguiente recurso, podrá observar las características del Docker, veamos:
@@ -162,7 +162,7 @@
         .tarjeta.bgr_11.p-3.mb-5
           .row.justify-content-around.align-items-center
             .col-3.col-md-2.col-lg-2
-              img(src="@/assets/curso/temas/tema5/t5-2.svg")
+              img(src="@/assets/curso/tema5/t5-2.svg")
             .col-9   
               .row.justify-content-between.align-items-center.position-relative
                 .col.mb-3.mb-sm-0.text-white
@@ -175,7 +175,7 @@
         .tarjeta.bgr_11.p-3.mb-5
           .row.justify-content-around.align-items-center
             .col-3.col-md-2.col-lg-2
-              img(src="@/assets/curso/temas/tema5/t5-2.svg")
+              img(src="@/assets/curso/tema5/t5-2.svg")
             .col-9   
               .row.justify-content-between.align-items-center.position-relative.posit-13
                 .col.mb-3.mb-sm-0.text-white

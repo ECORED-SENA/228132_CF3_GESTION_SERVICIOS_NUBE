@@ -54,7 +54,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.5',
-            titulo: 'TPolíticas de dominio',
+            titulo: 'Políticas de dominio',
             hash: 't_1_5',
           },
         ],
@@ -96,7 +96,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: 'Contenedores de software',
+            titulo: 'Contenedores de <em>software</em>',
             hash: 't_3_1',
           },
           {
@@ -403,7 +403,7 @@ export default {
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: ['Antonio Vecino Valero'],
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

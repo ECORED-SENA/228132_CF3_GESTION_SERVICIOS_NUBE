@@ -7,7 +7,7 @@
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.tarjeta--azul.h-100.d-flex.align-items-center
           figure
-            img(src="@/assets/template/emparejamiento.svg", alt="Texto que describa la imagen")
+            img(src="@/assets/template/rellenar.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Actividad didáctica 1
@@ -25,7 +25,7 @@
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.tarjeta--azul.h-100.d-flex.align-items-center
           figure
-            img(src="@/assets/template/completar.svg", alt="Texto que describa la imagen")
+            img(src="@/assets/template/rellenar.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Actividad didáctica 2
@@ -43,7 +43,7 @@
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.tarjeta--azul.h-100.d-flex.align-items-center
           figure
-            img(src="@/assets/template/casos-uso.svg", alt="Texto que describa la imagen")
+            img(src="@/assets/template/f-v.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Actividad didáctica 3
@@ -61,7 +61,7 @@
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.tarjeta--azul.h-100.d-flex.align-items-center
           figure
-            img(src="@/assets/template/opcion-multiple.svg", alt="Texto que describa la imagen")
+            img(src="@/assets/template/selec-mult.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Actividad didáctica 4
@@ -97,7 +97,7 @@
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.tarjeta--azul.h-100.d-flex.align-items-center
           figure
-            img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
+            img(src="@/assets/template/f-v.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Actividad didáctica 6
