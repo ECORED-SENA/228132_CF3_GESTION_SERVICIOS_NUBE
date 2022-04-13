@@ -17,7 +17,7 @@
                 img.d-none.d-lg-flex.img30(src='@/assets/template/puntos1.svg', alt='puntos1')
                 img.d-flex.d-lg-none(src='@/assets/template/puntos2.svg', alt='puntos2')
             .col-10.col-md-11.col-lg-11
-              p.m-0.color En algunos casos la estructura lógica y física posibilitará un mejor y mayor desarrollo de la gestión, sin embargo, es necesario tener en cuenta las características propias del dominio, la seguridad con que deben establecerse las cuentas, que permiten generar relaciones de confianza para el usuario y el administrador.
+              p.m-0.color.text-bold En algunos casos la estructura lógica y física posibilitará un mejor y mayor desarrollo de la gestión, sin embargo, es necesario tener en cuenta las características propias del dominio, la seguridad con que deben establecerse las cuentas, que permiten generar relaciones de confianza para el usuario y el administrador.
       
             .bgr_5.p-4.mb-4(data-aos="zoom-in-up")
               p.m-0 Por otra parte, el recurso del Docker, como contenedor, es de fácil manejo y servicio, posibilitando un mejor almacenamiento de información, todo esto enmarcado en las guías que ha facilitado Min Tic para el desarrollo tecnológico.

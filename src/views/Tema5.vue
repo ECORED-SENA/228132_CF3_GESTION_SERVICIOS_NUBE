@@ -14,14 +14,14 @@
             img(src='@/assets/curso/tema5/t5-1.png', alt='1-5')
         .col-12-col-md7.col-lg-7.mtop
           .tarjeta.bgr_11.p-3.mb-5
-            .row.justify-content-around.align-items-center
-              .col-3.col-md-2.col-lg-2
-                img(src="@/assets/curso/tema5/t5-2.svg")
-              .col-9
-                .row.justify-content-between.align-items-center
-                  .col.mb-3.mb-sm-0.text-white
+            .row.align-items-center
+              .col-12.col-md-auto.col-lg-auto.justify-center.mb-2
+                img.img70(src="@/assets/curso/tema5/t5-2.svg")
+              .col-12.col-md-10.col-lg-10
+                .row.align-items-center.position-relative
+                  .col-12.col-md-8.col-lg-8.mb-3.mb-sm-0.text-white
                     p.text-small Para este componente es necesario para la seguridad en la nube adoptar los puntos 11, 11.1, 11.1.1, 11.1.2, 11.2, 11.3, 11.4, 11.5 de la guía 12 del modelo MSPI del ministerio TIC, “5482_G12- Seguridad en la nube, el cual puede consultar en el enlace:   
-                  .col-sm-auto
+                  .col-12.col-md-4.col-lg-4.justify-center
                     a.boton.color-acento-botones.text-black(:href="obtenerLink('/downloads/seguridad-nube.pdf')" target="_blank" type="application/pdf")
                       span Abrir enlace
                       i.fas.fa-link
@@ -30,10 +30,10 @@
           .row.mtop_3.mb-2
             .col-2.col-md-1.col-lg-1.align-items-center
               figure.justify-center
-                img.d-none.d-lg-flex.img30(src='@/assets/template/puntos1.svg', alt='puntos1')
+                img.d-none.d-lg-flex.img50(src='@/assets/template/puntos1.svg', alt='puntos1')
                 img.d-flex.d-lg-none(src='@/assets/template/puntos2.svg', alt='puntos2')
             .col-10.col-md-11.col-lg-11
-              p.m-0.color Además de los controles tradicionales de seguridad de los datos (como controles de acceso o cifrado), hay otros dos pasos que ayudan a gestionar la migración no autorizada de datos a servicios <em>Cloud,</em> que podrá consultarse al desplegar el siguiente recurso, veamos:
+              p.m-0.color.text-bold Además de los controles tradicionales de seguridad de los datos (como controles de acceso o cifrado), hay otros dos pasos que ayudan a gestionar la migración no autorizada de datos a servicios <em>Cloud,</em> que podrá consultarse al desplegar el siguiente recurso, veamos:
       
         .bgr_5.p-4.mb-3.mb-md-4
           p.m-0 Monitorizar la existencia de grandes movimientos internos de datos con herramientas de monitorización de actividad de bases de datos <em>(DAM - Database Activity Monitoring)</em> y de monitorización de actividad en archivos <em>(FAM - File Activity Monitoring).</em>
@@ -41,9 +41,9 @@
     figure.justify-center.mb-3(data-aos="zoom-in-up")
       img.img900(src='@/assets/curso/tema5/t5-3.svg', alt='5-3')
     
-    .bg_grad-04.mb-5
+    .bg_grad-21.mb-5
       .row.mb-3
-        .col-12-col-md-7.col-lg-7.order-2.order-md-1.mtop
+        .col-12-col-md-7.col-lg-7.order-2.order-md-1.mtop_5
           div.p-2
             p.m-0 Monitorizar la migración de datos a <em>Cloud</em> con filtros URL y herramientas <em>Data Loss Prevention.</em> En las implementaciones de <em>Cloud</em> públicas y privadas, y a través de los diferentes modelos de servicio, es importante proteger los datos en tránsito. Esto incluye:
             div.p-3
@@ -62,7 +62,7 @@
                   | Los datos moviéndose entre instancias (u otros componentes) en un Cloud determinado. Hay tres opciones. 
         .col-12.col-md-5.col-lg-5.order-1.order-md-2(data-aos="zoom-in-up")
           figure.justify-center
-            img(src='@/assets/curso/tema5/t5-4.png', alt='1-4')
+            img.img450(src='@/assets/curso/tema5/t5-4.png', alt='1-4')
     
     .bg_grad-09
       .row

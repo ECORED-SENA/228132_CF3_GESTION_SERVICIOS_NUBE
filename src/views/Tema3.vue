@@ -12,7 +12,7 @@
         .col-12-col-md-7.col-lg-7.order-2.order-md-1.mtop
           div.p-2
             p.m-0 Una vez revisadas los conceptos y características del servicio de directorio y la virtualización, nos adentramos un poco más en los modelos de virtualización a nivel de sistema operativo y adicionalmente se desarrollarán varios ejercicios que nos introducen a la plataforma Docker la cual es ampliamente utilizada por 
-              span.color_1 la industria de desarrollo de 
+              span.color_1.text-bold la industria de desarrollo de 
                 | #[em software.]
           .row.mt-3.mb-3
             .col-2.col-md-1.col-lg-1.align-items-center
@@ -20,14 +20,14 @@
                 img.d-none.d-lg-flex.img30(src='@/assets/template/puntos1.svg', alt='puntos1')
                 img.d-flex.d-lg-none(src='@/assets/template/puntos2.svg', alt='puntos2')
             .col-10.col-md-11.col-lg-11
-              p.m-0.color Al finalizar este componente formativo el aprendiz estará en la capacidad de crear imágenes de <em>docker</em>, construir y ejecutar contenedores <em>Docker</em> a partir de imágenes locales, modificar contenedores locales, transformar un contenedor editada a una imagen y compartir una imagen local en el repositorio en la nube <em>Docker Hub.</em>
+              p.m-0.color.text-bold Al finalizar este componente formativo el aprendiz estará en la capacidad de crear imágenes de <em>docker</em>, construir y ejecutar contenedores <em>Docker</em> a partir de imágenes locales, modificar contenedores locales, transformar un contenedor editada a una imagen y compartir una imagen local en el repositorio en la nube <em>Docker Hub.</em>
 
         .col-12.col-md-5.col-lg-5.order-1.order-md-2(data-aos="zoom-in-up")
           figure.justify-center
             img(src='@/assets/curso/tema3/t3-1.png', alt='3-1')
     
     separador
-    .bg_grad-01
+    .bg_grad-20
       #t_3_1.titulo-segundo.color-acento-contenido.mb-3(data-aos="fade-right")
           h2 3.1  Contenedores de <em>software</em>
 
@@ -38,16 +38,13 @@
           figure.justify-center
             img(src='@/assets/curso/tema3/t3-2.svg', alt='3-2')
         .col-12.col-md-6.col-lg-6
-          .bloque-texto-e.bgr_12.p-4
-            .bloque-texto-e__texto.position-relative
+          .bloque-texto-e.bgr_12.p-5
+            .bloque-texto-e__texto.position-relative.pt-5
               img.posit-10(src='@/assets/template/icon-comillas.svg', alt='icon')
-              br
-              br
-              p.text-small.text-white En este modelo los contenedores no son más que máquinas virtuales aisladas entre sí, con un <em>software</em> específico que no tiene un sistema operativo propio, sino que comparte los recursos y el kernel del sistema operativo de la máquina anfitriona o host, logrando un mejor rendimiento ya que solo existe un sistema operativo encargado de la gestión de la infraestructura en la máquina anfitriona o host.
-               br
-              br
-              div.justify-end
-                p.text-white.text.small López (2018)
+              p.text-white En este modelo los contenedores no son más que máquinas virtuales aisladas entre sí, con un <em>software</em> específico que no tiene un sistema operativo propio, sino que comparte los recursos y el kernel del sistema operativo de la máquina anfitriona o host, logrando un mejor rendimiento ya que solo existe un sistema operativo encargado de la gestión de la infraestructura en la máquina anfitriona o host.
+              
+              div.pt-3.justify-end
+                p.text-white.text-bold López (2018)
                 i.color_3.fas.fa-square-full
 
       .bgr_5.p-4.mt-3.mb-5
@@ -111,7 +108,7 @@
                 img.d-none.d-lg-flex.img30(src='@/assets/template/puntos1.svg', alt='puntos1')
                 img.d-flex.d-lg-none(src='@/assets/template/puntos2.svg', alt='puntos2')
             .col-10.col-md-11.col-lg-11
-              p.m-0.color En ambos casos se requiere de una máquina host que contendrá la infraestructura física con todos los dispositivos y recursos necesarios, sobre los cuales se monta un sistema operativo que puede ser de cualquier tipo y luego sobre este sistema operativo se monta un software que en el caso del esquema de máquinas virtuales tradicionales será un hipervisor y en el esquema de contenedores será un gestor de contenedores.
+              p.m-0.color.text-bold En ambos casos se requiere de una máquina host que contendrá la infraestructura física con todos los dispositivos y recursos necesarios, sobre los cuales se monta un sistema operativo que puede ser de cualquier tipo y luego sobre este sistema operativo se monta un software que en el caso del esquema de máquinas virtuales tradicionales será un hipervisor y en el esquema de contenedores será un gestor de contenedores.
       
       .bgr_5.p-4.mb-4(data-aos="zoom-in-up")
         p.m-0 En las máquinas virtuales para poder ejecutar una aplicación específica se requiere de librerías y códigos binarios de los cuales depende y adicionalmente requiere el montaje de un sistema operativo invitado. Así, por ejemplo, si la aplicación a ejecutar en la máquina virtual fue construida con <em>Visual Studio .Net</em> es necesario también montar en la máquina virtual el sistema operativo <em>Windows,</em> si la aplicación a ejecutar en la máquina virtual fue construida en Swift requiere entonces la instalación del sistema operativo <em>MacOS</em> y así sucesivamente en todas las máquinas virtuales se debe correr el sistema operativo completo de acuerdo con las App a utilizar. 
@@ -120,7 +117,7 @@
       .row.m-0.align-items-center.justify-content-between 
         .col-lg-12
           .bloque-texto-a__texto.p-4
-            p En el caso de las tecnologías de contenedores, estos se construyen exclusivamente con las aplicaciones, librerías y archivos binarios a ser utilizados, y compartirán recursos con el sistema operativo anfitrión o máquina <em>host.</em>
+            p.m-0.text-bold En el caso de las tecnologías de contenedores, estos se construyen exclusivamente con las aplicaciones, librerías y archivos binarios a ser utilizados, y compartirán recursos con el sistema operativo anfitrión o máquina <em>host.</em>
     
     #t_3_3.titulo-segundo.color-acento-contenido.mb-3(data-aos="fade-right")
       h2 3.3  <em>Docker</em>
@@ -131,14 +128,14 @@
           div.p-2
             p.m-0 <em>Docker</em> es una de las plataformas de software más ampliamente utilizada en el mundo para la gestión de contenedores.
           .tarjeta.bgr_11.p-3.mb-5
-            .row.justify-content-around.align-items-center
-              .col-3.col-md-2.col-lg-2
-                img(src="@/assets/curso/tema5/t5-2.svg")
-              .col-9   
-                .row.justify-content-between.align-items-center.position-relative
-                  .col.mb-3.mb-sm-0.text-white
+            .row.align-items-center
+              .col-12.col-md-auto.col-lg-auto.justify-center.mb-2
+                img.img70(src="@/assets/curso/tema5/t5-2.svg")
+              .col-12.col-md-10.col-lg-10
+                .row.align-items-center.position-relative
+                  .col-12.col-md-8.col-lg-8.mb-3.mb-sm-0.text-white
                     p.text-smallPara Para Realizar el proceso de instalación de <em>Docker</em> en el sistema operativo <em>Windows</em> debemos dirigirnos directamente a la página oficial de <em>Docker</em> disponible en:   
-                  .col-sm-auto
+                  .col-12.col-md-4.col-lg-4.justify-center
                     a.boton.color-acento-botones.text-black(href="https://docs.docker.com/docker-for-windows/install/" target="_blank")
                       span Abrir enlace
                       i.fas.fa-link
@@ -150,7 +147,7 @@
           figure.justify-center
             img(src='@/assets/curso/tema3/t3-8.png', alt='3-8')
 
-    div.bgr_14.p-2.mb-4
+    div.bgr_16.p-2.mb-4
       h4.m-0.text-white Al desplegar el siguiente recurso, podrá observar las características del Docker, veamos:
     
     figure.mb-5
@@ -160,27 +157,27 @@
     .row
       .col-12.col-md-6
         .tarjeta.bgr_11.p-3.mb-5
-          .row.justify-content-around.align-items-center
-            .col-3.col-md-2.col-lg-2
-              img(src="@/assets/curso/tema5/t5-2.svg")
-            .col-9   
-              .row.justify-content-between.align-items-center.position-relative
-                .col.mb-3.mb-sm-0.text-white
-                  p.text-smallPara Para más información detallada diríjase a la documentación de referencia de Docker sobre archivos <em>Dockerfile</em> disponible en:   
-                .col-sm-auto
+          .row.align-items-center
+            .col-12.col-md-auto.col-lg-auto.justify-center.mb-2
+              img.img70(src="@/assets/curso/tema5/t5-2.svg")
+            .col-12.col-md-10.col-lg-10
+              .row.align-items-center.position-relative
+                .col-12.col-md-9.col-lg-9.mb-3.mb-sm-0.text-white
+                  p.m-0.text-smallPara Para más información detallada diríjase a la documentación de referencia de Docker sobre archivos <em>Dockerfile</em> disponible en:   
+                .col-12.col-md-3.col-lg-3.justify-center
                   a.boton.color-acento-botones.text-black(href="https://docs.docker.com/engine/reference/builder/" target="_blank")
                     span Abrir enlace
                     i.fas.fa-link
       .col-12.col-md-6
         .tarjeta.bgr_11.p-3.mb-5
-          .row.justify-content-around.align-items-center
-            .col-3.col-md-2.col-lg-2
-              img(src="@/assets/curso/tema5/t5-2.svg")
-            .col-9   
-              .row.justify-content-between.align-items-center.position-relative.posit-13
-                .col.mb-3.mb-sm-0.text-white
+          .row.align-items-center
+            .col-12.col-md-auto.col-lg-auto.justify-center.mb-2
+              img.img70(src="@/assets/curso/tema5/t5-2.svg")
+            .col-12.col-md-10.col-lg-10
+              .row.align-items-center.position-relative
+                .col-12.col-md-9.col-lg-9.mb-3.mb-sm-0.text-white
                   p.text-smallPara O la documentación de <em>Dockerfile</em> para Windows disponible en:   
-                .col-sm-auto
+                .col-12.col-md-3.col-lg-3.justify-center
                   a.boton.color-acento-botones.text-black(href="https://docs.microsoft.com/en-us/virtualization/windowscontainers/manage-docker/manage-windows-dockerfile" target="_blank")
                     span Abrir enlace
                     i.fas.fa-link

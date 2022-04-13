@@ -12,10 +12,12 @@
     figure.position-relative.mb-5(data-aos="zoom-in-up")
       img.d-none.d-lg-flex(src='@/assets/curso/portada/intro.png', alt='introducción')
       img.d-flex.d-lg-none(src='@/assets/curso/portada/intro2.png', alt='introducción')
-      .bgr.m-3.p-4.m-lg-5.p-lg-4
-        p.m-0 Le damos la bienvenida al componente formativo “Diseño y documentación de propuesta para servicios en la nube”. Para comenzar el recorrido por el mismo, visite el recurso didáctico que se muestra a continuación:
+      .row.justify-center
+        .col-11
+          .bgr
+            p.m-0.p-4 Le damos la bienvenida al componente formativo “Diseño y documentación de propuesta para servicios en la nube”. Para comenzar el recorrido por el mismo, visite el recurso didáctico que se muestra a continuación:
     
-    figure.mb-5.video1
+    figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video: Leyenda del video

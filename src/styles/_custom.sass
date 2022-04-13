@@ -1,7 +1,9 @@
 .img30
    max-width: 30px !important
+.img40
+  max-width: 40px !important
 .img50
-   max-width: 50px !important
+  max-width: 50px !important
 .img70
    max-width: 70px !important
 .img90
@@ -77,6 +79,14 @@
     margin-top: 5rem !important
     @media screen and ( max-width: 400px)
       margin-top: 2rem !important
+  &_5
+    margin-top: 7rem !important
+    @media screen and ( max-width: 400px)
+      margin-top: 1rem !important
+.mleft
+  margin-left: -80px
+  @media screen and ( max-width: 400px)
+    margin-left: -20px
 .ptop
   padding-top: 4rem !important
 .pstar
@@ -96,8 +106,7 @@ hr
   background: rgb(222,222,222)
   background: linear-gradient(180deg, rgba(222,222,222,1) 0%, rgba(255,255,255,1) 50%, rgba(222,222,222,1) 100%)
   border-radius: 10px
-  position: absolute
-  bottom: -40%
+  margin-top: -72px
   @media screen and ( max-width: 400px)
     bottom: -130%
   &_1
@@ -171,20 +180,20 @@ hr
     background: rgb(222,222,222)
     background: linear-gradient(180deg, rgba(222,222,222,1) 0%, rgba(255,255,255,1) 50%, rgba(222,222,222,1) 100%)
     border-radius: 10px
-    position: absolute
-    bottom: -40%
+    margin-top: -74px
     @media screen and ( max-width: 400px)
-      bottom: -248%
+       margin-top: -25px
   &_11
     background: rgb(17,110,185);
     background: linear-gradient(90deg, rgba(17,110,185,1) 0%, rgba(24,148,246,1) 100%);
+    border-radius: 10px !important
   &_12
     background: rgb(46,196,159);
     background: linear-gradient(232deg, rgba(46,196,159,1) 0%, rgba(43,57,144,1) 100%); 
     border-radius: 10px
   &_13
     background-color: $white
-    margin-left: -9rem
+    margin-left: -11rem
     margin-top: -2rem
     position: absolute
     z-index: 999
@@ -221,13 +230,46 @@ hr
     color: #F59D36
   &_20
     background: rgb(46,196,159);
-    background: linear-gradient(90deg, rgba(46,196,159,1) 0%, rgba(43,57,144,1) 100%);
+    background: linear-gradient(90deg, rgba(46,196,159,1) 0%, rgba(43,57,144,1) 100%)
+    border-radius: 10px !important
   &_21
     border-top-color: #1565C0
   &_22
     background-color: $white
   &_23
     color: #039BE5
+  &_24
+    background-color: $white
+    border: groove
+  &_25
+    position: relative
+    background-color: #FFECB1
+    &::before
+      background-color: #FFCA28
+      content: ''
+      display: block
+      width: 25px
+      height: 10px
+      position: absolute
+      top: 0
+      left: 0
+  &_26
+    margin-right: -13rem; 
+    position: relative
+    background-color: #FFFAD8
+    z-index: 999
+    @media screen and ( max-width: 400px)
+      margin-right: 0
+      z-index: 0
+    &::before
+      background-color: #EFD198
+      content: ''
+      display: block
+      width: 25px
+      height: 10px
+      position: absolute
+      top: 0
+      left: 0
     
     
 .bg_grad-01
@@ -238,7 +280,7 @@ hr
     content: ''
     position: absolute
     margin: 0 -3rem
-    top: -1rem
+    top: 12rem
     left: 0
     width: calc( 100% + 6rem)
     height: 100%
@@ -392,7 +434,7 @@ hr
     top: 3rem
     left: 0
     width: calc( 100% + 6rem)
-    height: 91%
+    height: 100%
     background-image: url("../assets/curso/tema2/fondo1.svg")
     background-repeat: no-repeat
     background-size: cover
@@ -464,7 +506,7 @@ hr
       background-image: none
 .bg_grad-16
   position: relative
-  .row, p, .cajon, div
+  .row, p, .cajon, div, figure
     position: relative
   &::before
     content: ''
@@ -510,6 +552,52 @@ hr
     background-repeat: no-repeat
     @media screen and ( max-width: 400px)
       background-image: none
+.bg_grad-19
+  position: relative
+  .row, p, .cajon
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 4rem
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 70%
+    background-image: url("../assets/curso/tema1/fondo2.svg")
+    background-repeat: no-repeat
+    @media screen and ( max-width: 400px)
+      background-image: none
+.bg_grad-20
+  position: relative
+  .row, p, .cajon, .slyder-f
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 12rem
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 75%
+    background-image: url("../assets/curso/tema1/fondo1.svg")
+    background-repeat: no-repeat
+.bg_grad-21
+  position: relative
+  .row, p, .cajon
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 6rem
+    left: 0
+    width: calc( 100% + 6rem)
+    height: 100%
+    background-image: url("../assets/curso/tema1/fondo4.svg")
+    background-repeat: no-repeat
+    @media screen and ( max-width: 400px)
+      background-image: none
 .bg_img
   background-image: url("../assets/curso/tema2/t2-11.svg")
     
@@ -539,14 +627,14 @@ hr
     left: 68% 
 .posit-5
   position: absolute
-  top: -18%
+  top: -6%
   left: 0%
   @media screen and ( max-width: 400px)
     top: 22%
     left: 0%
 .posit-6
   position: absolute
-  top: -18%
+  top: -6%
   left: 39%
   @media screen and ( max-width: 400px)
     top: 22%
@@ -575,17 +663,17 @@ hr
 .posit-10
   position: absolute
   max-width: 75px
-  top: -15%
+  top: -25%
   left: 0%
   @media screen and ( max-width: 400px)
-    top: -7%
+    top: -15%
     left: 0%
 .posit-11
   margin-top: -15%;
 .posit-12
   position: absolute
-  bottom: -35%
-  left: 35%
+  bottom: -48%
+  left: 51%
   @media screen and ( max-width: 400px)
     bottom: -23%
     left: 30% 
@@ -593,16 +681,16 @@ hr
   padding-top: 45px;
   padding-bottom: 27px;
 .posit-14
-  margin-top: 5rem
+  margin-top: 1rem
   margin-bottom: 3rem
   @media screen and ( max-width: 400px)
-    margin-top: 60%
+    margin-top: 1rem
 .posit-15
   margin-left: -30%
   @media screen and ( max-width: 400px)
     margin-left: 5%
 .posit-16
-  margin-top: 16%
+  margin-top: 12%
   @media screen and ( max-width: 400px)
     margin-top: 70%
 .posit-17
@@ -626,9 +714,21 @@ hr
     margin-top: 0
 .posit-21
   scroll-padding-top: 4rem
+.posit-22
+  position: absolute
+  bottom: -70%
+  left: 79%
+  @media screen and ( max-width: 400px)
+    bottom: -12%
+    left: 68%
+.posit-23
+  border-bottom-left-radius: 0 !important
+  border-bottom-right-radius: 0 !important
+  border-top-left-radius: 10px !important
+  border-top-right-radius: 10px !important
 .video1
   & iframe
-  margin-top: 98px 
+  margin-top: 80px 
   @media screen and ( max-width: 400px)
     margin-top: 220px  
 
@@ -642,9 +742,9 @@ hr
   width: 100% 
   margin-left: -6% !important
   padding-left: 5% !important
-  border-radius: 20px
+  border-radius: 10px
   @media screen and ( max-width: 400px)
-    margin-left: -10% !important
+    margin-left: 7% !important
 .tarjeta-avatar-b .tarjeta3 
   width: 100% 
   margin-left: -10% !important
@@ -662,11 +762,11 @@ hr
     display: flex
     top: -136px
 .tarjeta-avatar-b__img2
-  min-width: 20%;
-  max-width: 20%;
-  position: relative;
-  display: flex;
-  align-items: center; 
+  min-width: 20%
+  max-width: 20%
+  position: relative
+  display: flex
+  align-items: center 
   @media screen and ( max-width: 400px)
     min-width: 24%
     max-width: 20%
@@ -675,11 +775,11 @@ hr
     top: -70px
     margin-left: -15%
 .tarjeta-avatar-b__img3
-  min-width: 20%;
-  max-width: 20%;
-  position: relative;
-  display: flex;
-  align-items: center; 
+  min-width: 20%
+  max-width: 20%
+  position: relative
+  display: flex
+  align-items: center 
   @media screen and ( max-width: 400px)
     min-width: 24%
     max-width: 20%
@@ -688,18 +788,31 @@ hr
     top: -120px
     margin-left: -15%
 .tarjeta-avatar-b__img4
-  min-width: 20%;
-  max-width: 20%;
-  position: relative;
-  display: flex;
-  align-items: center; 
+  min-width: 20%
+  max-width: 20%
+  position: relative
+  display: flex
+  align-items: center 
+  margin-right: -51px
   @media screen and ( max-width: 400px)
     min-width: 24%
     max-width: 20%
     position: relative
     display: flex
-    top: -120px
-    margin-left: 1%
+    top: -100px
+.tarjeta-avatar-b__img5
+  min-width: 20%
+  max-width: 20%
+  position: relative
+  display: flex
+  align-items: center 
+  margin-right: -51px
+  @media screen and ( max-width: 400px)
+    min-width: 24%
+    max-width: 20%
+    position: relative
+    display: flex
+    top: -100px
 .tarjeta--boton
   height: 100%
 .cajon-b.color-primario:before 
@@ -728,3 +841,19 @@ hr
   margin-left: 30px
 .tabs-b.color-secundario .tabs-b__tab--active
   border-top-color: #1565C0 !important
+.img-infografica.color-primario .img-infografica__item__dot:before
+  background-color:#12263F !important 
+.img-infografica.color-primario .img-infografica__item__dot:after
+  background-color:#12263F !important
+.img-infografica.color-primario .img-infografica__item__numero
+  color: $white !important
+.linea-tiempo-d.color-acento-contenido .linea-tiempo-d__item--selected .linea-tiempo-d__item__number 
+  background-color: #2EC49F
+  color: #fff
+.tarjeta--gris
+  background-color: #F6F6F6
+  &::before
+    background-color: #12263F
+  
+.tabs-b__tab__icon
+  width: 71px !important
