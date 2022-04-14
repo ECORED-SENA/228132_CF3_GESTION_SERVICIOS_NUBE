@@ -49,17 +49,17 @@
             div.p-3
               ul.lista-ul
                 li 
-                  i.color_1.fas.fa-caret-right
-                  | Los datos moviéndose desde la infraestructura tradicional a los proveedores.
+                  i.color_1.fas.fa-caret-right.fa-lg
+                  span.mtop_6 Los datos moviéndose desde la infraestructura tradicional a los proveedores.
                 li 
-                  i.color_1.fas.fa-caret-right
-                  | Cloud, incluyendo público/privado, interior/exterior y otras combinaciones.
+                  i.color_1.fas.fa-caret-right.fa-lg
+                  span.mtop_6 Cloud, incluyendo público/privado, interior/exterior y otras combinaciones.
                 li 
-                  i.color_1.fas.fa-caret-right
-                  | Los datos migrando entre los proveedores de Cloud.
+                  i.color_1.fas.fa-caret-right.fa-lg
+                  span.mtop_6 Los datos migrando entre los proveedores de Cloud.
                 li 
-                  i.color_1.fas.fa-caret-right
-                  | Los datos moviéndose entre instancias (u otros componentes) en un Cloud determinado. Hay tres opciones. 
+                  i.color_1.fas.fa-caret-right.fa-lg
+                  span.mtop_6 Los datos moviéndose entre instancias (u otros componentes) en un Cloud determinado. Hay tres opciones. 
         .col-12.col-md-5.col-lg-5.order-1.order-md-2(data-aos="zoom-in-up")
           figure.justify-center
             img.img450(src='@/assets/curso/tema5/t5-4.png', alt='1-4')
