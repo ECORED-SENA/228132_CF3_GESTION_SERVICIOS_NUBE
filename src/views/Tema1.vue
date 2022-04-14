@@ -58,7 +58,7 @@
             img(src='@/assets/curso/tema1/t1-7.png', alt='1-7')
         .col-12-col-md-7.col-lg-7.mtop
           div.p-2.p-md-3.bgr_1
-            p.m-0 strong Un controlador de dominio, también conocido como directorio activo (<em>Active Directory</em> por sus siglas en inglés) cumple la función principal de agrupar varios ordenadores en una misma red a lo que se conoce como dominio, el controlador de dominio es capaz de orquestar reglas o políticas para cada dominio que se tenga.
+            p.m-0 Un controlador de dominio, también conocido como directorio activo (<em>Active Directory</em> por sus siglas en inglés) cumple la función principal de agrupar varios ordenadores en una misma red a lo que se conoce como dominio, el controlador de dominio es capaz de orquestar reglas o políticas para cada dominio que se tenga.
           .row.mt-3
             .col-2.col-md-1.col-lg-1.align-items-center
               figure.justify-center
@@ -159,7 +159,7 @@
           .row.mb-3
             .col-2.col-md-1.col-lg-1.align-items-center
               figure.justify-center
-                img.d-flex(src='@/assets/curso/tema1/t1-8.svg', alt='1-8')
+                img.d-flex(src='@/assets/curso/puntos2.svg', alt='1-8')
             .col-10.col-md-11.col-lg-11.mb-3.position-relative
               p.m-0.color Cuando se instala el servidor de dominio y se configura el dominio, se instalan las cuentas locales predeterminadas, estas cuentas se guardan en el contenedor Usuarios en Usuarios y Equipos de <em>Active Directory.</em> Las cuentas locales predeterminadas se pueden crear, deshabilitar, restablecer y eliminar con la Consola de administración de Microsoft (MMC) de Usuarios y equipos de <em>Active Directory</em> y con herramientas de línea de comandos.
               figure.posit-1
@@ -222,8 +222,8 @@
             .row
               .col-2.col-md-1.col-lg-1.align-items-center
                 figure.justify-center
-                  img.d-flex(src='@/assets/curso/tema1/t1-14.svg', alt='1-14')
-              .col-10.col-md-11.col-lg-11.mb-3.position-relative
+                  img.d-flex(src='@/assets/curso/puntos7.svg', alt='1-14')
+              .col-10.col-md-11.col-lg-11.position-relative
                 p.m-0.color En el siguiente recurso didáctico, encuentra algunas de las medidas de seguridad para las cuentas y accesos, veamos.
             figure.posit-2
               img.img90(src='@/assets/curso/tema1/t1-20.svg', alt='1-20')
@@ -420,8 +420,8 @@
                 p.text-small La redundancia en servicios de directorio o en #[em.color.text-bold Active Directory] consiste en una estrategia para garantizar la disponibilidad del controlador de dominio, por medio de la agregación de controladores de dominio adicionales alternos a un dominio, mejorando las solicitudes de autenticación y búsquedas en el servidor del catálogo global. 
                 p.text-small.color.mb-4.mb-md-5.mb-lg-5.text-bold También ayuda a que los servicios de dominio de <em>Active Directory</em> resuelvan problemas o errores de <em>hardware, software</em> o del administrador (SysAdmin).
                 .bloque-texto-e.bgr_12.p-4
-                  .bloque-texto-e__texto.position-relative.pt-5
-                    img.posit-10(src='@/assets/curso/tema1/t1-41.svg', alt='1-41')
+                  .bloque-texto-e__texto.position-relative.ptop
+                    img.posit-24(src='@/assets/curso/tema1/t1-41.svg', alt='1-41')
                     p.text-small.text-white Una de las opciones para la redundancia es realizar #[strong “Configuración de redundancia geográfica con Replicación de SQL Server”] como lo sugiere Microsoft en su portal, la compañía asegura lo siguiente, #[strong “Si usa SQL Server como base de datos de configuración de AD FS] #[em (Active Directory Federation Services)], #[strong puede configurar la redundancia geográfica para la granja de servidores AD FS mediante SQL Server replicación. La redundancia geográfica replica los datos entre dos sitios geográficamente lejanos para que las aplicaciones puedan cambiar de un sitio a otro. De este modo, en caso de error de un sitio, todavía puede tener todos los datos de configuración disponibles en el segundo sitio.”] 
                     div.pt-5.justify-end
                       p.text-white.text.small Microsoft (2021)

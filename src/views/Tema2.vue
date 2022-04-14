@@ -47,9 +47,10 @@
           .row.mb-3.mt-3.justify-end
             .col-2.col-md-1.col-lg-1.align-items-center
               figure.justify-center
-                img.d-flex(src='@/assets/curso/puntos2.svg', alt='puntos')
+                img.d-none.d-lg-flex(src='@/assets/curso/puntos2.svg', alt='puntos')
+                img.d-flex.d-lg-none(src='@/assets/curso/puntos1.svg', alt='puntos')
             .col-10.col-md-10.col-lg-10
-              p.m-0.color Una máquina virtual (MV) es un <em>software</em> especial que funciona como un contenedor de <em>software</em> donde se incluye un sistema operativo y aplicaciones que funcionan totalmente independientes. De esta forma un equipo puede tener instaladas varias máquinas virtuales cada una de las cuales se ejecutan independientemente en un mismo equipo que sirve como <em>host.</em>
+              p.m-0.color.text-bold Una máquina virtual (MV) es un <em>software</em> especial que funciona como un contenedor de <em>software</em> donde se incluye un sistema operativo y aplicaciones que funcionan totalmente independientes. De esta forma un equipo puede tener instaladas varias máquinas virtuales cada una de las cuales se ejecutan independientemente en un mismo equipo que sirve como <em>host.</em>
           div.bgr_16.p-1.mb-4.mt-3
             h3.m-0.p-1.text-white Ventajas al implementar esquemas de virtualización 
         .col-12.col-md-4.col-lg-4.order-1.order-md-2(data-aos="zoom-in-up")
@@ -90,7 +91,7 @@
       
     #anclas.row.justify-content-center.gx-lg-2.mb-5
       .col-12.col-md-3.mb-4.mb-lg-0
-        .tarjeta--boton.color-amarillo.p-4.mb-4.mb-lg-0.h-100(@click="goToElement('1')" @mouseover="mostrarIndicador = false")
+        .tarjeta--boton.color-amarillo.p-4.mb-4.mb-lg-0.h-100.posit-23(@click="goToElement('1')" @mouseover="mostrarIndicador = false")
           .row.justify-content-center.mb-3
             .col-7
               figure
@@ -100,7 +101,7 @@
 
                     
       .col-12.col-md-3.mb-4.mb-lg-0
-        .tarjeta--boton.color-amarillo.p-4.mb-4.mb-lg-0.h-100(@click="goToElement('2')" @mouseover="mostrarIndicador = false")
+        .tarjeta--boton.color-amarillo.p-4.mb-4.mb-lg-0.h-100.posit-23(@click="goToElement('2')" @mouseover="mostrarIndicador = false")
           .row.justify-content-center.mb-3
             .col-8
               figure
@@ -110,7 +111,7 @@
 
                     
       .col-12.col-md-3.mb-4.mb-lg-0
-        .tarjeta--boton.color-amarillo.p-4.mb-4.mb-lg-0.h-100(@click="goToElement('3')" @mouseover="mostrarIndicador = false")
+        .tarjeta--boton.color-amarillo.p-4.mb-4.mb-lg-0.h-100.posit-23(@click="goToElement('3')" @mouseover="mostrarIndicador = false")
           .row.justify-content-center.mb-3
             .col-7
               figure
@@ -120,7 +121,7 @@
 
                     
       .col-12.col-md-3.mb-4.mb-lg-0
-        .tarjeta--boton.color-amarillo.p-4.mb-4.mb-lg-0.h-100(@click="goToElement('4')" @mouseover="mostrarIndicador = false")
+        .tarjeta--boton.color-amarillo.p-4.mb-4.mb-lg-0.h-100.posit-23(@click="goToElement('4')" @mouseover="mostrarIndicador = false")
           .row.justify-content-center.mb-3
             .col-7
               figure
@@ -146,20 +147,20 @@
           P Este tipo de virtualización tiene ventajas clave:
             ul.lista-ul.p-3
               li 
-                i.fas.fa-caret-right.bgr_18
-                | Mayor disponibilidad de los servidores
+                i.fas.fa-caret-right.fa-lg.bgr_18
+                span.mtop_6 Mayor disponibilidad de los servidores
               li 
-                i.fas.fa-caret-right.bgr_18
-                | Reducción en costes operativos
+                i.fas.fa-caret-right.fa-lg.bgr_18
+                span.mtop_6 Reducción en costes operativos
               li 
-                i.fas.fa-caret-right.bgr_18
-                | Eliminación de la complejidad de los servidores
+                i.fas.fa-caret-right.fa-lg.bgr_18
+                span.mtop_6 Eliminación de la complejidad de los servidores
               li 
-                i.fas.fa-caret-right.bgr_18
-                | Mejora en el rendimiento de las aplicaciones
+                i.fas.fa-caret-right.fa-lg.bgr_18
+                span.mtop_6 Mejora en el rendimiento de las aplicaciones
               li 
-                i.fas.fa-caret-right.bgr_18
-                | Distribución más rápida de las cargas de trabajo
+                i.fas.fa-caret-right.fa-lg.bgr_18
+                span.mtop_6 Distribución más rápida de las cargas de trabajo
           .bgr_25.p-4.mb-4(data-aos="zoom-in-up")
             p.m-0 La virtualización de servidores es una implementación en la que un servidor físico <em>(host)</em> se divide mediante <em>software</em> en varios servidores virtuales únicos y aislados, los cuales se visualizan al cliente como servidores independientes.
         
@@ -305,14 +306,14 @@
               .col-md-12
                 ul.lista-ul.p-3
                   li 
-                    i.fas.fa-caret-right.bgr_19
-                    | Gran cantidad de paquetes de software disponibles para virtualización.
+                    i.fas.fa-caret-right.fa-lg.bgr_19
+                    span.mtop_6 Gran cantidad de paquetes de software disponibles para virtualización.
                   li 
-                    i.fas.fa-caret-right.bgr_19
-                    | Tiene soluciones libres y de pago.
+                    i.fas.fa-caret-right.fa-lg.bgr_19
+                    span.mtop_6 Tiene soluciones libres y de pago.
                   li 
-                    i.fas.fa-caret-right.bgr_19
-                    | Compatibilidad con la tecnología Intel VT-x, la cual le permite ejecutar máquinas virtuales en forma nativa de la CPU host cuando esta tiene procesadores Intel.
+                    i.fas.fa-caret-right.fa-lg.bgr_19
+                    span.mtop_6 Compatibilidad con la tecnología Intel VT-x, la cual le permite ejecutar máquinas virtuales en forma nativa de la CPU host cuando esta tiene procesadores Intel.
                 .tarjeta.bgr_11.p-3.posit-17
                   .row.align-items-center
                     .col-12.col-md-auto.col-lg-auto.justify-center.mb-2
@@ -331,14 +332,14 @@
               .col-md-12
                 ul.lista-ul.p-3
                   li 
-                    i.fas.fa-caret-right.bgr_19
-                    | Software gratuito descargable desde su sitio web oficial.
+                    i.fas.fa-caret-right.fa-lg.bgr_19
+                    span.mtop_6 Software gratuito descargable desde su sitio web oficial.
                   li 
-                    i.fas.fa-caret-right.bgr_19
-                    | Posibilidad de instalar máquinas Linux, MacOS y Windows en la gran mayoría de versiones de forma gratuita.
+                    i.fas.fa-caret-right.fa-lg.bgr_19
+                    span.mtop_6 Posibilidad de instalar máquinas Linux, MacOS y Windows en la gran mayoría de versiones de forma gratuita.
                   li 
-                    i.fas.fa-caret-right.bgr_19
-                    | Soporta virtualización en tecnologías Intel y AMD.
+                    i.fas.fa-caret-right.fa-lg.bgr_19
+                    span.mtop_6 Soporta virtualización en tecnologías Intel y AMD.
                 .tarjeta.bgr_11.p-3.posit-17
                   .row.align-items-center
                     .col-12.col-md-auto.col-lg-auto.justify-center.mb-2
@@ -356,14 +357,14 @@
               .col-md-12
                 ul.lista-ul.p-3
                   li 
-                    i.fas.fa-caret-right.bgr_19
-                    | Disponible en forma nativa en S.O Windows en versión pro y server. Es decir, si se tiene este tipo de versiones estará disponible de forma gratuita y no requiere de instalación de software externo al sistema.
+                    i.fas.fa-caret-right.fa-lg.bgr_19
+                    span.mtop_6 Disponible en forma nativa en S.O Windows en versión pro y server. Es decir, si se tiene este tipo de versiones estará disponible de forma gratuita y no requiere de instalación de software externo al sistema.
                   li 
-                    i.fas.fa-caret-right.bgr_19
-                    | Sirve para virtualizar sistemas Windows y otros como Linux y FreeBSD.
+                    i.fas.fa-caret-right.fa-lg.bgr_19
+                    span.mtop_6 Sirve para virtualizar sistemas Windows y otros como Linux y FreeBSD.
                   li 
-                    i.fas.fa-caret-right.bgr_19
-                    | Soporta virtualización en tecnologías Intel y AMD.
+                    i.fas.fa-caret-right.fa-lg.bgr_19
+                    span.mtop_6 Soporta virtualización en tecnologías Intel y AMD.
                 .tarjeta.bgr_11.p-3.posit-17
                   .row.align-items-center
                     .col-12.col-md-auto.col-lg-auto.justify-center.mb-2
@@ -381,14 +382,14 @@
               .col-md-12
                 ul.lista-ul.p-3
                   li 
-                    i.fas.fa-caret-right.bgr_19
-                    | Es software libre y está disponible para diferentes tipos de sistemas operativos.
+                    i.fas.fa-caret-right.fa-lg.bgr_19
+                    span.mtop_6 Es software libre y está disponible para diferentes tipos de sistemas operativos.
                   li 
-                    i.fas.fa-caret-right.bgr_19
-                    | No dispone de GUI pero se puede instalar mediante una extensión para en Mac y en Windows.
+                    i.fas.fa-caret-right.fa-lg.bgr_19
+                    span.mtop_6 No dispone de GUI pero se puede instalar mediante una extensión para en Mac y en Windows.
                   li 
-                    i.fas.fa-caret-right.bgr_19
-                    | Soporta virtualización en tecnologías Intel y AMD.
+                    i.fas.fa-caret-right.fa-lg.bgr_19
+                    span.mtop_6 Soporta virtualización en tecnologías Intel y AMD.
                 .tarjeta.bgr_11.p-3.posit-17
                   .row.align-items-center
                     .col-12.col-md-auto.col-lg-auto.justify-center.mb-2
@@ -406,20 +407,20 @@
               .col-md-12
                 ul.lista-ul.p-3
                   li 
-                    i.fas.fa-caret-right.bgr_19
-                    | Hypervisor para sistemas operativos MacOS.
+                    i.fas.fa-caret-right.fa-lg.bgr_19
+                    span.mtop_6 Hypervisor para sistemas operativos MacOS.
                   li 
-                    i.fas.fa-caret-right.bgr_19
-                    | Permite ejecutar máquinas virtuales de otros sistemas sobre la plataforma de Apple.
+                    i.fas.fa-caret-right.fa-lg.bgr_19
+                    span.mtop_6 Permite ejecutar máquinas virtuales de otros sistemas sobre la plataforma de Apple.
                   li 
-                    i.fas.fa-caret-right.bgr_19
-                    | Compatibilidad con la tecnología Intel VT-x.
+                    i.fas.fa-caret-right.fa-lg.bgr_19
+                    span.mtop_6 Compatibilidad con la tecnología Intel VT-x.
                   li 
-                    i.fas.fa-caret-right.bgr_19
-                    | Permite traspaso de archivos, carpetas compartidas y comunicación de todo tipo de dispositivos de E/S entre la máquina host y las virtuales
+                    i.fas.fa-caret-right.fa-lg.bgr_19
+                    span.mtop_6 Permite traspaso de archivos, carpetas compartidas y comunicación de todo tipo de dispositivos de E/S entre la máquina host y las virtuales
                   li 
-                    i.fas.fa-caret-right.bgr_19
-                    | Se debe pagar licencia para su uso.
+                    i.fas.fa-caret-right.fa-lg.bgr_19
+                    span.mtop_6 Se debe pagar licencia para su uso.
                 .tarjeta.bgr_11.p-3.posit-17
                   .row.align-items-center
                     .col-12.col-md-auto.col-lg-auto.justify-center.mb-2
@@ -438,7 +439,7 @@
       .row
         .col-12.col-md-6.col-lg-6.mtop_1.order-2.order-md-1
           div.bgr_4.p-2.mb-3
-            h3.m-0.text-white Ejemplo de virtualizacións
+            h3.m-0.text-white Ejemplo de virtualización
           p En el siguiente recurso, podrá consultar un ejemplo paso a paso de cómo realizar un proceso de virtualización de una máquina con sistema operativo Linux, en una máquina con sistema operativo Windows. Para este ejemplo se utilizará una máquina host con sistema operativo Windows 10 Home de 64 bits y se virtualiza y ejecutará una máquina virtual con sistema operativo Ubuntu desktop 20.04 por medio de la herramienta Oracle Virtual Box.
           .tarjeta.bgr_20.p-3
             .row.justify-content-around.align-items-center
@@ -528,12 +529,12 @@
             p.mb-3 Describe el proceso de mover una máquina virtual de un <em>host</em> a otro. Esto es posible porque los invitados están corriendo en un entorno virtualizado en lugar de directamente sobre el <em>hardware.</em> Hay dos maneras de migrar una máquina virtual: en vivo y fuera de línea.
               ul.lista-ul.p-3
                 li 
-                  i.fas.fa-caret-right.bgr_19
-                  span.color Migración fuera de línea: 
+                  i.fas.fa-caret-right.fa-lg.bgr_19
+                  span.color.mtop_6 Migración fuera de línea: 
                     span.color_4 Una migración fuera de línea suspende al invitado, y después mueve una imagen de la memoria del invitado al host destino. El invitado es posteriormente puesto en marcha sobre el host destino y la memoria usada por el invitado en la host fuente liberada.
                 li 
-                  i.fas.fa-caret-right.bgr_19
-                  span.color Migración en vivo: 
+                  i.fas.fa-caret-right.fa-lg.bgr_19
+                  span.color.mtop_6 Migración en vivo: 
                     span.color_4 La migración en vivo es el proceso de migrar un invitado activo de un host físico a otro.
           .col-md-4.order-1.order-md-2.mb-3
             figure

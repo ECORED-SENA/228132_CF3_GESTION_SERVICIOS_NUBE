@@ -83,6 +83,8 @@
     margin-top: 7rem !important
     @media screen and ( max-width: 400px)
       margin-top: 1rem !important
+  &_6
+    margin-top: 5px
 .mleft
   margin-left: -80px
   @media screen and ( max-width: 400px)
@@ -226,6 +228,7 @@ hr
     border-radius: 10px
   &_18
     color: #2EC49F
+    
   &_19
     color: #F59D36
   &_20
@@ -610,10 +613,10 @@ hr
     left: 68%
 .posit-2
   position: absolute
-  bottom: -3%
+  bottom: -19%
   left: 73%
   @media screen and ( max-width: 400px)
-    bottom: 2%
+    bottom: -3%
     left: 68% 
 .posit-3
   margin-top: -15%;
@@ -726,6 +729,15 @@ hr
   border-bottom-right-radius: 0 !important
   border-top-left-radius: 10px !important
   border-top-right-radius: 10px !important
+  border-bottom: solid
+.posit-24
+  position: absolute
+  max-width: 75px
+  top: -13%
+  left: 0%
+  @media screen and ( max-width: 400px)
+    top: -5%
+    left: 0%
 .video1
   & iframe
   margin-top: 80px 
@@ -847,13 +859,28 @@ hr
   background-color:#12263F !important
 .img-infografica.color-primario .img-infografica__item__numero
   color: $white !important
-.linea-tiempo-d.color-acento-contenido .linea-tiempo-d__item--selected .linea-tiempo-d__item__number 
-  background-color: #2EC49F
-  color: #fff
-.tarjeta--gris
-  background-color: #F6F6F6
-  &::before
-    background-color: #12263F
   
 .tabs-b__tab__icon
   width: 71px !important
+
+.linea-tiempo-d__item.row.linea-tiempo-d__item--selected
+  .col-auto.linea-tiempo-d__item__col-number
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: #2EC49F !important
+      color: white
+  .col
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background-color: #EFEFEF
+
+/// non selected
+.linea-tiempo-d__item.row
+  .col-auto.linea-tiempo-d__item__col-number
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: #E5E5E5
+    .linea-tiempo-d__item__dots:after
+      border-left: 4px dotted #adb8c2 !important
+  .col
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background-color: #E5E5E5
+.fa-lg 
+  font-size: 2em !important

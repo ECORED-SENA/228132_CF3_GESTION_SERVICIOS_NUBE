@@ -80,7 +80,7 @@
                     figure.justify-center
                       img.d-none.d-lg-flex.img50(src='@/assets/curso/puntos2.svg', alt='puntos1')
                       
-                  .col-12
+                  .col-12.col-md-10.col-lg-10
                     p.m-0.color.text-bold Los principales beneficios de las Arquitecturas de Almacenamiento NAS son que proporcionan un mejor TCO -<em>Total Cost of Ownship,</em> resultando fácilmente escalable y capaces de ofrecer una alta disponibilidad.
 
                 .bgr_5.p-4.mb-4.mt-3
@@ -150,8 +150,8 @@
       .col-12.col-md-8.col-lg-8.order-2.order-md-1
         ul.lista-ul.p-3
           li 
-            i.fas.fa-caret-right.bgr_23
-            span iSCSI utiliza los llamados iniciadores 
+            i.fas.fa-caret-right.fa-lg.bgr_23
+            span.mtop_6 iSCSI utiliza los llamados iniciadores 
               | #[em (initiator)] para enviar comando iSCSI a los dispositivos de almacenamiento. Estos iniciadores pueden ser basados en 
               | #[em software o hardware.] En la mayoría de las situaciones, los iniciadores 
               | #[em software] pueden ser suficientes, una solución 
@@ -161,12 +161,12 @@
               | #[em overhead] de CPU en el 
               | #[em host] que se conecta a la red de almacenamiento.
           li 
-            i.fas.fa-caret-right.bgr_23
-            span iSCSI da un buen rendimiento en redes de 1Gbps (más si utilizamos 
+            i.fas.fa-caret-right.fa-lg.bgr_23
+            span.mtop_6 iSCSI da un buen rendimiento en redes de 1Gbps (más si utilizamos 
               | #[em multipathing]), pero actualmente se pueden construir redes iSCSI de 10 Gbps que ofrecen un rendimiento parecido e incluso mejor que FC. El problema de las redes de 10 Gbps es que son tan caras de implementar como una red FC.
           li 
-            i.fas.fa-caret-right.bgr_23
-            | En cuanto a seguridad, a diferencia de FC, iSCSI implementa sistemas de autenticación (CHAP) y encriptación.
+            i.fas.fa-caret-right.fa-lg.bgr_23
+            span.mtop_6 En cuanto a seguridad, a diferencia de FC, iSCSI implementa sistemas de autenticación (CHAP) y encriptación.
 
       .col-12.col-md-4.col-lg-4(data-aos="zoom-in-up").order-1.order-md-2.mb-2
         figure.justify-center
