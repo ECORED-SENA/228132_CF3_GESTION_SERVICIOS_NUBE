@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Software de virtualización
+      h1 <em>Software</em> de virtualización
     
     .bg_grad-02
       .row.mb-5
@@ -21,11 +21,11 @@
                 img.d-none.d-lg-flex.img30(src='@/assets/curso/puntos9.svg', alt='9')
                 img.d-flex.d-lg-none.img30(src='@/assets/curso/puntos1.svg', alt='9')
             .col-10.col-md-11.col-lg-11
-              p.m-0.color.text-bold Es necesario conocer sobre las generalidades de la virtualización, los diferentes tipos que hay y que son más comunes en el uso de acuerdo con sus características, un listado de algunas herramientas para realizar un proceso de virtualización de servidores y un ejemplo detallado para la realización de una virtualización de un sistema operativo Linux corriendo en una máquina Windows.   
+              p.m-0.color.text-bold Es necesario conocer sobre las generalidades de la virtualización, los diferentes tipos que hay y que son más comunes en el uso de acuerdo con sus características, un listado de algunas herramientas para realizar un proceso de virtualización de servidores y un ejemplo detallado para la realización de una virtualización de un sistema operativo Linux corriendo en una máquina <em>Windows</em>.   
           figure.justify-center.mb-3(data-aos="zoom-in-up")
               img.img450(src='@/assets/curso/tema2/t2-2.svg', alt='1-8')  
           .bgr_5.p-4.mb-4(data-aos="zoom-in-up")
-            p.m-0 La virtualización es el proceso mediante el cual es posible crear una representación de elementos físicos como servidores, sistemas de almacenamiento, redes e incluso aplicaciones mediante software de modo que se puedan reducir los costos asociados a infraestructura de TI, al tiempo que se mejora la eficiencia en el uso de estos recursos (VMware, 2011).
+            p.m-0 La virtualización es el proceso mediante el cual es posible crear una representación de elementos físicos como servidores, sistemas de almacenamiento, redes e incluso aplicaciones mediante <em>software</em> de modo que se puedan reducir los costos asociados a infraestructura de TI, al tiempo que se mejora la eficiencia en el uso de estos recursos (VMware, 2011).
     
     div.justify-center
       div
@@ -172,12 +172,12 @@
             LineaTiempoD.color-acento-contenido
               .row(numero="1" titulo="Virtualización completa")
                 .col-md-12.mb-4.mb-md-0
-                  p.text-small En este tipo de virtualización se usa el hipervisor, el cual es un software que se encarga de la supervisión y gestión de los recursos físicos y de adicionalmente se encarga de independizar cada servidor virtual. Sin embargo, el hipervisor requiere recursos para hacer el procesamiento correspondiente lo que puede afectar el rendimiento general del servidor.
+                  p.text-small En este tipo de virtualización se usa el hipervisor, el cual es un <em>software</em> que se encarga de la supervisión y gestión de los recursos físicos y de adicionalmente se encarga de independizar cada servidor virtual. Sin embargo, el hipervisor requiere recursos para hacer el procesamiento correspondiente lo que puede afectar el rendimiento general del servidor.
                   figure
                     img(src='@/assets/curso/tema2/t2-13.svg', alt='2-13')
               .row(numero="2" titulo="Paravirtualización")
                 .col-md-12.mb-4.mb-md-0
-                  p.text-small En este esquema cada sistema operativo de los servidores virtuales tiene conocimiento de la existencia de los otros por lo cual el hipervisor se libera un poco de la carga para gestionar los sistemas operativos, adicionalmente se tiene ventajas como la posibilidad de crear copias de seguridad más fácilmente, migraciones más rápidas, mejor utilización del sistema y ahorro de energía. No todos los sistemas operativos soportan paravirtualización y en algunos casos se pueden presentar problemas de compatibilidad de hardware.
+                  p.text-small En este esquema cada sistema operativo de los servidores virtuales tiene conocimiento de la existencia de los otros por lo cual el hipervisor se libera un poco de la carga para gestionar los sistemas operativos, adicionalmente se tiene ventajas como la posibilidad de crear copias de seguridad más fácilmente, migraciones más rápidas, mejor utilización del sistema y ahorro de energía. No todos los sistemas operativos soportan paravirtualización y en algunos casos se pueden presentar problemas de compatibilidad de <em>hardware.</em>
                   figure
                     img(src='@/assets/curso/tema2/t2-14.svg', alt='2-14')
             
@@ -224,7 +224,7 @@
                 img.d-none.d-lg-flex.img50(src='@/assets/curso/puntos5.svg', alt='puntos')
                 img.d-flex.d-lg-none(src='@/assets/curso/puntos2.svg', alt='1-8') 
             .col-10
-              P.color.m-0.text-bold Consisten en crear redes virtuales independientes y separadas mediante el uso de software sobre redes físicas. Este tipo de virtualización se puede presentar de dos maneras: 
+              P.color.m-0.text-bold Consisten en crear redes virtuales independientes y separadas mediante el uso de <em>software</em> sobre redes físicas. Este tipo de virtualización se puede presentar de dos maneras: 
               .tarjeta-avatar-b.mb-2.mt-3
                 .tarjeta-avatar-b__img2
                   img.posit-15(src='@/assets/curso/tema2/t2-18.svg' alt='AvatarTop')
@@ -238,7 +238,7 @@
                 .tarjeta.tarjeta--azul
                   .p-4
                     h2 Virtualización interna
-                    p.m-0 La cual hace uso de contenedores de software para proveer la funcionalidad de una unidad de red física.  Algunos ejemplos de aplicaciones y enfoque de virtualización de red con: VPN, VLAN, SDN.
+                    p.m-0 La cual hace uso de contenedores de <em>software</em> para proveer la funcionalidad de una unidad de red física.  Algunos ejemplos de aplicaciones y enfoque de virtualización de red con: VPN, VLAN, SDN.
 
       hr.mb-5
 
@@ -291,7 +291,7 @@
                 figure.justify-center
                   img.d-flex(src='@/assets/curso/puntos6.svg', alt='puntos')
               .col-10.col-md-11.col-lg-11.position-relative
-                p.m-0 En el mercado existen muchas herramientas de software creadas para facilitar el proceso de virtualización de servidores, en la Tabla 1 se listan algunas de estas herramientas para entornos domésticos y pequeñas empresas junto con cada una de sus características principales.
+                p.m-0 En el mercado existen muchas herramientas de <em>software</em> creadas para facilitar el proceso de virtualización de servidores, en la Tabla 1 se listan algunas de estas herramientas para entornos domésticos y pequeñas empresas junto con cada una de sus características principales.
                 figure.posit-22
                   img.img90(src='@/assets/curso/puntos3.svg', alt='puntos')
     .bg_grad-12
@@ -307,13 +307,13 @@
                 ul.lista-ul.p-3
                   li 
                     i.fas.fa-caret-right.fa-lg.bgr_19
-                    span.mtop_6 Gran cantidad de paquetes de software disponibles para virtualización.
+                    span.mtop_6 Gran cantidad de paquetes de <em>software</em> disponibles para virtualización.
                   li 
                     i.fas.fa-caret-right.fa-lg.bgr_19
                     span.mtop_6 Tiene soluciones libres y de pago.
                   li 
                     i.fas.fa-caret-right.fa-lg.bgr_19
-                    span.mtop_6 Compatibilidad con la tecnología Intel VT-x, la cual le permite ejecutar máquinas virtuales en forma nativa de la CPU host cuando esta tiene procesadores Intel.
+                    span.mtop_6 Compatibilidad con la tecnología Intel VT-x, la cual le permite ejecutar máquinas virtuales en forma nativa de la CPU <em>host</em> cuando esta tiene procesadores Intel.
                 .tarjeta.bgr_11.p-3.posit-17
                   .row.align-items-center
                     .col-12.col-md-auto.col-lg-auto.justify-center.mb-2
@@ -321,8 +321,8 @@
                     .col-12.col-md-10.col-lg-10
                       .row.align-items-center.position-relative
                         .col-12.col-md-9.col-lg-9.mb-3.mb-sm-0.text-white
-                          h3 VMware Workstation Pro 
-                          p.text-small.m-0  Es el hipervisor de escritorio estándar de la industria para ejecutar máquinas virtuales en PC con Linux o Windows. Comience hoy su prueba gratuita y completamente funcional de 30 días.   
+                          h3 <em>VMware Workstation Pro</em> 
+                          p.text-small.m-0  Es el hipervisor de escritorio estándar de la industria para ejecutar máquinas virtuales en PC con Linux o <em>Windows</em>. Comience hoy su prueba gratuita y completamente funcional de 30 días.   
                         .col-12.col-md-3.col-lg-3.justify-center
                           a.boton.color-acento-botones.text-black(href="https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html" target="_blank")
                             span Abrir enlace
@@ -333,10 +333,10 @@
                 ul.lista-ul.p-3
                   li 
                     i.fas.fa-caret-right.fa-lg.bgr_19
-                    span.mtop_6 Software gratuito descargable desde su sitio web oficial.
+                    span.mtop_6 <em>Software</em> gratuito descargable desde su sitio web oficial.
                   li 
                     i.fas.fa-caret-right.fa-lg.bgr_19
-                    span.mtop_6 Posibilidad de instalar máquinas Linux, MacOS y Windows en la gran mayoría de versiones de forma gratuita.
+                    span.mtop_6 Posibilidad de instalar máquinas Linux, <em>MacOS</em> y <em>Windows</em> en la gran mayoría de versiones de forma gratuita.
                   li 
                     i.fas.fa-caret-right.fa-lg.bgr_19
                     span.mtop_6 Soporta virtualización en tecnologías Intel y AMD.
@@ -353,15 +353,15 @@
                           a.boton.color-acento-botones.text-black(href="https://www.virtualbox.org/wiki/Downloads" target="_blank")
                             span Abrir enlace
                             i.fas.fa-link
-            .row(numero="3" titulo="Microsoft Hyper-V")
+            .row(numero="3" titulo="<em>Microsoft Hyper-V</em>")
               .col-md-12
                 ul.lista-ul.p-3
                   li 
                     i.fas.fa-caret-right.fa-lg.bgr_19
-                    span.mtop_6 Disponible en forma nativa en S.O Windows en versión pro y server. Es decir, si se tiene este tipo de versiones estará disponible de forma gratuita y no requiere de instalación de software externo al sistema.
+                    span.mtop_6 Disponible en forma nativa en S.O <em>Windows</em> en versión pro y server. Es decir, si se tiene este tipo de versiones estará disponible de forma gratuita y no requiere de instalación de <em>software</em> externo al sistema.
                   li 
                     i.fas.fa-caret-right.fa-lg.bgr_19
-                    span.mtop_6 Sirve para virtualizar sistemas Windows y otros como Linux y FreeBSD.
+                    span.mtop_6 Sirve para virtualizar sistemas <em>Windows</em> y otros como Linux y FreeBSD.
                   li 
                     i.fas.fa-caret-right.fa-lg.bgr_19
                     span.mtop_6 Soporta virtualización en tecnologías Intel y AMD.
@@ -373,7 +373,7 @@
                       .row.align-items-center.position-relative
                         .col-12.col-md-9.col-lg-9.mb-3.mb-sm-0.text-white
                           h3 Microsoft Hyper-V 
-                          p.text-small.m-0  Hyper-V se puede habilitar de muchas maneras, incluido el uso del panel de control de Windows 10, PowerShell o la herramienta de administración y mantenimiento de imágenes de implementación (DISM). Este documento recorre cada opción.   
+                          p.text-small.m-0  Hyper-V se puede habilitar de muchas maneras, incluido el uso del panel de control de <em>Windows</em> 10, PowerShell o la herramienta de administración y mantenimiento de imágenes de implementación (DISM). Este documento recorre cada opción.   
                         .col-12.col-md-3.col-lg-3.justify-center
                           a.boton.color-acento-botones.text-black(href="https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v" target="_blank")
                             span Abrir enlace
@@ -383,10 +383,10 @@
                 ul.lista-ul.p-3
                   li 
                     i.fas.fa-caret-right.fa-lg.bgr_19
-                    span.mtop_6 Es software libre y está disponible para diferentes tipos de sistemas operativos.
+                    span.mtop_6 Es <em>software</em> libre y está disponible para diferentes tipos de sistemas operativos.
                   li 
                     i.fas.fa-caret-right.fa-lg.bgr_19
-                    span.mtop_6 No dispone de GUI pero se puede instalar mediante una extensión para en Mac y en Windows.
+                    span.mtop_6 No dispone de GUI pero se puede instalar mediante una extensión para en <em>Mac</em> y en <em>Windows</em>.
                   li 
                     i.fas.fa-caret-right.fa-lg.bgr_19
                     span.mtop_6 Soporta virtualización en tecnologías Intel y AMD.
@@ -408,7 +408,7 @@
                 ul.lista-ul.p-3
                   li 
                     i.fas.fa-caret-right.fa-lg.bgr_19
-                    span.mtop_6 Hypervisor para sistemas operativos MacOS.
+                    span.mtop_6 <em>Hypervisor</em> para sistemas operativos <em>MacOS.</em>
                   li 
                     i.fas.fa-caret-right.fa-lg.bgr_19
                     span.mtop_6 Permite ejecutar máquinas virtuales de otros sistemas sobre la plataforma de Apple.
@@ -417,7 +417,7 @@
                     span.mtop_6 Compatibilidad con la tecnología Intel VT-x.
                   li 
                     i.fas.fa-caret-right.fa-lg.bgr_19
-                    span.mtop_6 Permite traspaso de archivos, carpetas compartidas y comunicación de todo tipo de dispositivos de E/S entre la máquina host y las virtuales
+                    span.mtop_6 Permite traspaso de archivos, carpetas compartidas y comunicación de todo tipo de dispositivos de E/S entre la máquina <em>host</em> y las virtuales
                   li 
                     i.fas.fa-caret-right.fa-lg.bgr_19
                     span.mtop_6 Se debe pagar licencia para su uso.
@@ -429,7 +429,7 @@
                       .row.align-items-center.position-relative
                         .col-12.col-md-9.col-lg-9.mb-3.mb-sm-0.text-white
                           h3 Parallels 
-                          p.text-small.m-0  Una aplicación rápida, sencilla y potente para ejecutar Windows en su Mac Intel o Apple M1, todo sin reiniciar. Incluye más de 30 herramientas de un solo toque para simplificar las tareas diarias en Mac y Windows.   
+                          p.text-small.m-0  Una aplicación rápida, sencilla y potente para ejecutar <em>Windows</em> en su <em>Mac</em> Intel o Apple M1, todo sin reiniciar. Incluye más de 30 herramientas de un solo toque para simplificar las tareas diarias en Mac y <em>Windows</em>.   
                         .col-12.col-md-3.col-lg-3.justify-center
                           a.boton.color-acento-botones.text-black(href="https://www.parallels.com" target="_blank")
                             span Abrir enlace
@@ -440,7 +440,7 @@
         .col-12.col-md-6.col-lg-6.mtop_1.order-2.order-md-1
           div.bgr_4.p-2.mb-3
             h3.m-0.text-white Ejemplo de virtualización
-          p En el siguiente recurso, podrá consultar un ejemplo paso a paso de cómo realizar un proceso de virtualización de una máquina con sistema operativo Linux, en una máquina con sistema operativo Windows. Para este ejemplo se utilizará una máquina host con sistema operativo Windows 10 Home de 64 bits y se virtualiza y ejecutará una máquina virtual con sistema operativo Ubuntu desktop 20.04 por medio de la herramienta Oracle Virtual Box.
+          p En el siguiente recurso, podrá consultar un ejemplo paso a paso de cómo realizar un proceso de virtualización de una máquina con sistema operativo Linux, en una máquina con sistema operativo <em>Windows</em>. Para este ejemplo se utilizará una máquina <em>host</em> con sistema operativo <em>Windows</em> 10 Home de 64 bits y se virtualiza y ejecutará una máquina virtual con sistema operativo Ubuntu desktop 20.04 por medio de la herramienta Oracle <em>Virtual Box.</em>
           .tarjeta.bgr_20.p-3
             .row.justify-content-around.align-items-center
               .col-3.col-md-2.col-lg-2
@@ -469,7 +469,7 @@
             img(src='@/assets/curso/tema2/t2-26.png', alt='2-26')
         .col-12.col-md-8.col-lg-8.mtop_1.position-relative
           p.color #[strong Las máquinas virtuales son un sistema operativo completo funcionando de manera aislada dentro de otro sistema operativo anfitrión ] 
-            span.color_4 (Alarcón, 2018), de igual manera debe existir un componente de infraestructura de tipo hardware que soporte todo lo anterior que en últimas es el servidor o equipo donde se haga el desarrollo y creación de la máquina virtual o si se trata del despliegue y puesta en producción final de la aplicación puede referirse a un proveedor que suministra el <em>hardware</em> necesario que soportará la máquina virtual como <em>Azure, Google Cloud, AWS, Digital Ocean</em> entre otras, como nos lo muestra la siguiente imagen.
+            span.color_4 (Alarcón, 2018), de igual manera debe existir un componente de infraestructura de tipo <em>hardware</em> que soporte todo lo anterior que en últimas es el servidor o equipo donde se haga el desarrollo y creación de la máquina virtual o si se trata del despliegue y puesta en producción final de la aplicación puede referirse a un proveedor que suministra el <em>hardware</em> necesario que soportará la máquina virtual como <em>Azure, Google Cloud, AWS, Digital Ocean</em> entre otras, como nos lo muestra la siguiente imagen.
 
           figure.posit-18
             img.img90(src='@/assets/curso/puntos3.svg', alt='puntos3')
@@ -531,11 +531,11 @@
                 li 
                   i.fas.fa-caret-right.fa-lg.bgr_19
                   span.color.mtop_6 Migración fuera de línea: 
-                    span.color_4 Una migración fuera de línea suspende al invitado, y después mueve una imagen de la memoria del invitado al host destino. El invitado es posteriormente puesto en marcha sobre el host destino y la memoria usada por el invitado en la host fuente liberada.
+                    span.color_4 Una migración fuera de línea suspende al invitado, y después mueve una imagen de la memoria del invitado al <em>host</em> destino. El invitado es posteriormente puesto en marcha sobre el <em>host</em> destino y la memoria usada por el invitado en la <em>host</em> fuente liberada.
                 li 
                   i.fas.fa-caret-right.fa-lg.bgr_19
                   span.color.mtop_6 Migración en vivo: 
-                    span.color_4 La migración en vivo es el proceso de migrar un invitado activo de un host físico a otro.
+                    span.color_4 La migración en vivo es el proceso de migrar un invitado activo de un <em>host</em> físico a otro.
           .col-md-4.order-1.order-md-2.mb-3
             figure
               img(src='@/assets/curso/tema2/t2-34.png', alt='2-34')                
@@ -557,7 +557,7 @@
             img(src='@/assets/curso/tema2/t2-36.png', alt='2-36')
         .col-12-col-md-7.col-lg-7.posit-20
           p.m-0.color #[strong La digitalización de la fabricación implica enviar y recibir una gran cantidad de datos desde numerosos orígenes y puntos de datos diferentes. ] 
-            span.color_4 Las aplicaciones y paquetes de software encargados de conectar estos puntos de datos requieren más capacidad de computación de la que jamás habían necesitado. Las empresas industriales están comenzando a cambiar de soluciones físicas de hardware a ambientes virtuales donde pueden residir varias aplicaciones y sistemas operativos.
+            span.color_4 Las aplicaciones y paquetes de <em>software</em> encargados de conectar estos puntos de datos requieren más capacidad de computación de la que jamás habían necesitado. Las empresas industriales están comenzando a cambiar de soluciones físicas de <em>hardware</em> a ambientes virtuales donde pueden residir varias aplicaciones y sistemas operativos.
           figure.justify-end.mt-3.mb-3
             img.img90(src='@/assets/curso/puntos3.svg', alt='puntos')
           .tarjeta-avatar-b.mb-2

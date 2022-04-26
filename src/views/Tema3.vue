@@ -11,7 +11,7 @@
       .row.mb-3
         .col-12-col-md-7.col-lg-7.order-2.order-md-1.mtop
           div.p-2
-            p.m-0 Una vez revisadas los conceptos y características del servicio de directorio y la virtualización, nos adentramos un poco más en los modelos de virtualización a nivel de sistema operativo y adicionalmente se desarrollarán varios ejercicios que nos introducen a la plataforma Docker la cual es ampliamente utilizada por 
+            p.m-0 Una vez revisadas los conceptos y características del servicio de directorio y la virtualización, nos adentramos un poco más en los modelos de virtualización a nivel de sistema operativo y adicionalmente se desarrollarán varios ejercicios que nos introducen a la plataforma <em>Docker</em> la cual es ampliamente utilizada por 
               span.color_1.text-bold la industria de desarrollo de 
                 | #[em software.]
           .row.mt-3.mb-3
@@ -41,7 +41,7 @@
           .bloque-texto-e.bgr_12.p-5
             .bloque-texto-e__texto.position-relative.pt-5
               img.posit-10(src='@/assets/template/icon-comillas.svg', alt='icon')
-              p.text-white En este modelo los contenedores no son más que máquinas virtuales aisladas entre sí, con un <em>software</em> específico que no tiene un sistema operativo propio, sino que comparte los recursos y el kernel del sistema operativo de la máquina anfitriona o host, logrando un mejor rendimiento ya que solo existe un sistema operativo encargado de la gestión de la infraestructura en la máquina anfitriona o host.
+              p.text-white En este modelo los contenedores no son más que máquinas virtuales aisladas entre sí, con un <em>software</em> específico que no tiene un sistema operativo propio, sino que comparte los recursos y el kernel del sistema operativo de la máquina anfitriona o <em>host</em>, logrando un mejor rendimiento ya que solo existe un sistema operativo encargado de la gestión de la infraestructura en la máquina anfitriona o <em>host</em>.
               
               div.pt-3.justify-end
                 p.text-white.text-bold López (2018)
@@ -108,10 +108,10 @@
                 img.d-none.d-lg-flex.img30(src='@/assets/template/puntos1.svg', alt='puntos1')
                 img.d-flex.d-lg-none(src='@/assets/template/puntos2.svg', alt='puntos2')
             .col-10.col-md-11.col-lg-11
-              p.m-0.color.text-bold En ambos casos se requiere de una máquina host que contendrá la infraestructura física con todos los dispositivos y recursos necesarios, sobre los cuales se monta un sistema operativo que puede ser de cualquier tipo y luego sobre este sistema operativo se monta un software que en el caso del esquema de máquinas virtuales tradicionales será un hipervisor y en el esquema de contenedores será un gestor de contenedores.
+              p.m-0.color.text-bold En ambos casos se requiere de una máquina <em>host</em> que contendrá la infraestructura física con todos los dispositivos y recursos necesarios, sobre los cuales se monta un sistema operativo que puede ser de cualquier tipo y luego sobre este sistema operativo se monta un <em>software</em> que en el caso del esquema de máquinas virtuales tradicionales será un hipervisor y en el esquema de contenedores será un gestor de contenedores.
       
       .bgr_5.p-4.mb-4(data-aos="zoom-in-up")
-        p.m-0 En las máquinas virtuales para poder ejecutar una aplicación específica se requiere de librerías y códigos binarios de los cuales depende y adicionalmente requiere el montaje de un sistema operativo invitado. Así, por ejemplo, si la aplicación a ejecutar en la máquina virtual fue construida con <em>Visual Studio .Net</em> es necesario también montar en la máquina virtual el sistema operativo <em>Windows,</em> si la aplicación a ejecutar en la máquina virtual fue construida en Swift requiere entonces la instalación del sistema operativo <em>MacOS</em> y así sucesivamente en todas las máquinas virtuales se debe correr el sistema operativo completo de acuerdo con las App a utilizar. 
+        p.m-0 En las máquinas virtuales para poder ejecutar una aplicación específica se requiere de librerías y códigos binarios de los cuales depende y adicionalmente requiere el montaje de un sistema operativo invitado. Así, por ejemplo, si la aplicación a ejecutar en la máquina virtual fue construida con <em>Visual Studio .Net</em> es necesario también montar en la máquina virtual el sistema operativo <em>Windows,</em> si la aplicación a ejecutar en la máquina virtual fue construida en <em>Swift</em> requiere entonces la instalación del sistema operativo <em>MacOS</em> y así sucesivamente en todas las máquinas virtuales se debe correr el sistema operativo completo de acuerdo con las App a utilizar. 
     
     .bloque-texto-a.bgr_15.p-4.p-md-5.mb-5 
       .row.m-0.align-items-center.justify-content-between 
@@ -126,7 +126,7 @@
       .row
         .col-12-col-md-7.col-lg-7.order-2.order-md-1.mtop
           div.p-2
-            p.m-0 <em>Docker</em> es una de las plataformas de software más ampliamente utilizada en el mundo para la gestión de contenedores.
+            p.m-0 <em>Docker</em> es una de las plataformas de <em>software</em> más ampliamente utilizada en el mundo para la gestión de contenedores.
           .tarjeta.bgr_11.p-3.mb-5
             .row.align-items-center
               .col-12.col-md-auto.col-lg-auto.justify-center.mb-2
@@ -148,7 +148,7 @@
             img(src='@/assets/curso/tema3/t3-8.png', alt='3-8')
 
     div.bgr_16.p-2.mb-4
-      h4.m-0.text-white Al desplegar el siguiente recurso, podrá observar las características del Docker, veamos:
+      h4.m-0.text-white Al desplegar el siguiente recurso, podrá observar las características del <em>Docker,</em> veamos:
     
     figure.mb-5
       .video
@@ -163,7 +163,7 @@
             .col-12.col-md-10.col-lg-10
               .row.align-items-center.position-relative
                 .col-12.col-md-9.col-lg-9.mb-3.mb-sm-0.text-white
-                  p.m-0.text-smallPara Para más información detallada diríjase a la documentación de referencia de Docker sobre archivos <em>Dockerfile</em> disponible en:   
+                  p.m-0.text-smallPara Para más información detallada diríjase a la documentación de referencia de <em>Docker</em> sobre archivos <em>Dockerfile</em> disponible en:   
                 .col-12.col-md-3.col-lg-3.justify-center
                   a.boton.color-acento-botones.text-black(href="https://docs.docker.com/engine/reference/builder/" target="_blank")
                     span Abrir enlace
@@ -176,7 +176,7 @@
             .col-12.col-md-10.col-lg-10
               .row.align-items-center.position-relative
                 .col-12.col-md-9.col-lg-9.mb-3.mb-sm-0.text-white
-                  p.text-smallPara O la documentación de <em>Dockerfile</em> para Windows disponible en:   
+                  p.text-smallPara O la documentación de <em>Dockerfile</em> para <em>Windows</em> disponible en:   
                 .col-12.col-md-3.col-lg-3.justify-center
                   a.boton.color-acento-botones.text-black(href="https://docs.microsoft.com/en-us/virtualization/windowscontainers/manage-docker/manage-windows-dockerfile" target="_blank")
                     span Abrir enlace

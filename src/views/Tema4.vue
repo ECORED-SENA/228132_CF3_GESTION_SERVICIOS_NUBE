@@ -69,7 +69,7 @@
                 img.img450(src='@/assets/curso/tema4/t4-3.svg', alt='4-3')
 
           .row.p-3(numero="2" titulo="NAS Network Attached Storage")
-            p Con la introducción de las redes locales (LAN), se empezaron a utilizar servidores de almacenamiento conectados a la red, a los cuales se podía acceder directamente a través de la propia infraestructura mediante protocolos específicos como NFS -<em>Network File System,</em> en entornos UNIX y CIFS -<em>Common Internet File System,</em> en entornos Microsoft (antes conocido como SMB, protocolo original de IBM que fue mejorado por Microsoft en CIFS) o incluso mediante FTP, HTTP, etc.
+            p Con la introducción de las redes locales (LAN), se empezaron a utilizar servidores de almacenamiento conectados a la red, a los cuales se podía acceder directamente a través de la propia infraestructura mediante protocolos específicos como NFS -<em>Network File System,</em> en entornos UNIX y CIFS -<em>Common Internet File System,</em> en entornos <em>Microsoft</em> (antes conocido como SMB, protocolo original de IBM que fue mejorado por <em>Microsoft</em> en CIFS) o incluso mediante FTP, HTTP, etc.
             .row.ps-3.ps-md-5.ps-lg-5
               .col-12.col-md-5.col-lg-5.mb-3
                 figure
@@ -145,7 +145,7 @@
         figure(@click="goToElement('anclas')" @mouseover="mostrarIndicador = false")
           img(src='@/assets/curso/up.svg', alt='icon', style='width: 33px').m-auto
             
-    p Sistema de almacenamiento basado en bloques como FC - <em>Fiber Channel</em>, pero a diferencia, utiliza componentes de una red Ethernet tradicional para realizar la conexión entre los hosts y el sistema de almacenamiento. Al utilizar componentes Ethernet, iSCSI es más barato de implementar.                    
+    p Sistema de almacenamiento basado en bloques como FC - <em>Fiber Channel</em>, pero a diferencia, utiliza componentes de una red Ethernet tradicional para realizar la conexión entre los <em>hosts</em> y el sistema de almacenamiento. Al utilizar componentes Ethernet, iSCSI es más barato de implementar.                    
     .row.mt-2 
       .col-12.col-md-8.col-lg-8.order-2.order-md-1
         ul.lista-ul.p-3
@@ -247,8 +247,8 @@
                   img.d-none.d-lg-flex.img50(src='@/assets/curso/puntos7.svg', alt='puntos')
                   img.d-flex.d-lg-none.img50(src='@/assets/curso/puntos2.svg', alt='puntos')
               .col-9
-                p.m-0.color.text-bold El coste y rendimiento de cada solución puede variar grandemente siendo los dispositivos dedicados los que ofrecen mayor rendimiento, pero a un coste más alto
-              p.mt-4 En la mayoría de los casos, NAS no ofrece el mismo rendimiento que una red SAN FC pero una arquitectura de red bien configurada puede ofrecer un rendimiento adaptado a tus necesidades. De manera similar a iSCSI, NAS utiliza tarjetas de red para comunicarse con los dispositivos de almacenamiento, por lo tanto tenemos un límite de 1 Gpbs. A diferencia de iSCSI no permite multipathing ofreciendo un rendimiento inferior
+                p.m-0.color.text-bold El coste y rendimiento de cada solución puede variar grandemente siendo los dispositivos dedicados los que ofrecen mayor rendimiento, pero a un coste más alto.
+              p.mt-4 En la mayoría de los casos, NAS no ofrece el mismo rendimiento que una red SAN FC pero una arquitectura de red bien configurada puede ofrecer un rendimiento adaptado a tus necesidades. De manera similar a iSCSI, NAS utiliza tarjetas de red para comunicarse con los dispositivos de almacenamiento, por lo tanto tenemos un límite de 1 Gpbs. A diferencia de iSCSI no permite multipathing ofreciendo un rendimiento inferior.
           .col-md-4.order-1.order-md-2.mb-3
             figure
               img(src='@/assets/curso/tema4/t4-18.svg', alt='4-17')      

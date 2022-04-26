@@ -16,7 +16,7 @@
           figure.justify-center
             img(src='@/assets/curso/tema1/t1-3.svg', alt='1-1')
           hr.mt-0.mb-2
-          p <em>Active Directory</em> o conocido como Directorio Activo (AD), consiste en una herramienta propiedad de Microsoft (Gigante tecnológico del <em>software</em> proveedores de los sistemas operativos Windows, <em>software</em> ofimático MS Office, entre otros servicios en la nube) que brinda servicios de directorio comúnmente en una red LAN.
+          p <em>Active Directory</em> o conocido como Directorio Activo (AD), consiste en una herramienta propiedad de <em>Microsoft</em> (Gigante tecnológico del <em>software</em> proveedores de los sistemas operativos <em>Windows,</em> <em>software</em> ofimático MS Office, entre otros servicios en la nube) que brinda servicios de directorio comúnmente en una red LAN.
           .bgr_5.p-4.mb-4(data-aos="fade-left")
             p.m-0 En el siguiente recurso, encontrará información en detalle del <em>Active Directory</em>, le invitamos a consultarlo:
       
@@ -27,7 +27,7 @@
               .row.justify-content-center.mb-3
                 .col-8.justify-center
                   img.img120(src='@/assets/curso/tema1/t1-4.svg' alt='1-4')
-              p.text-center El directorio activo tiene la capacidad de proporcionar un servicio ubicado en uno o varios servidores con capacidad de crear y orquestar objetos como usuarios, equipos o grupos, de tal manera que se pueda gestionar credenciales de inicio de sesión de los equipos conectados en una red
+              p.text-center El directorio activo tiene la capacidad de proporcionar un servicio ubicado en uno o varios servidores con capacidad de crear y orquestar objetos como usuarios, equipos o grupos, de tal manera que se pueda gestionar credenciales de inicio de sesión de los equipos conectados en una red.
 
             .tarjeta.bgr_24.p-4
               .row.justify-content-center.mb-3
@@ -68,7 +68,7 @@
               p.m-0.color.text-bold El dominio dentro de #[em.color_1 Active Directory] son varios ordenadores conectados a una red, los cuales cuentan con un equipo servidor para administrar las cuentas de usuario y credenciales de la red. Hasta aquí es todo igual, lo que ocurre es que en una red no solamente podremos tener un dominio, sino varios de ellos. Estos dominios no necesariamente tienen que estar en contacto unos con otros, es más si por ejemplo un dominio (A) tienen acceso a otros dos dominios (B y C), esto no implica que C tenga acceso a B.
       
       .bgr_5.p-4.mb-4(data-aos="zoom-in-up")
-        p.m-0 Entonces, cuando se hace referencia a <em>Active Directory</em> también se debe entender como controlador de dominio, en donde se pueden crear distintos dominios y gestionar permisos e interacción en cada uno de ellos. A esta relación entre dominios se le denomina relación de confianza o trust.
+        p.m-0 Entonces, cuando se hace referencia a <em>Active Directory</em> también se debe entender como controlador de dominio, en donde se pueden crear distintos dominios y gestionar permisos e interacción en cada uno de ellos. A esta relación entre dominios se le denomina relación de confianza o <em>trust.</em>
     
     separador
 
@@ -80,7 +80,7 @@
         .row.m-0.align-items-center.justify-content-between 
           .col-lg-8.order-2.order-md-1
             .bloque-texto-a__texto.p-4
-              p Los servicios de directorio se pueden presentar en una red la cual puede estar compuesta por una estructura física y lógica. Físicamente los servicios se sirven sobre una topología de red que interconecta los hosts u ordenadores. La estructura lógica es la parte fundamental en los servicios de directorio, desde allí se organizan diversas reglas para los dominios, para facilitar la gestión de dichas reglas se tienen un esquema en el Active Directory compuesto en árboles y bosques.
+              p Los servicios de directorio se pueden presentar en una red la cual puede estar compuesta por una estructura física y lógica. Físicamente los servicios se sirven sobre una topología de red que interconecta los <em>hosts</em> u ordenadores. La estructura lógica es la parte fundamental en los servicios de directorio, desde allí se organizan diversas reglas para los dominios, para facilitar la gestión de dichas reglas se tienen un esquema en el <em>Active Directory</em> compuesto en árboles y bosques.
               p.m-0 Y que se distribuye como se explica en el siguiente recurso didáctico:
           .col-lg-4.mb-4.mb-lg-0.order-1.order-md-2(data-aos="zoom-in-up")
             figure.justify-center
@@ -161,7 +161,7 @@
               figure.justify-center
                 img.d-flex(src='@/assets/curso/puntos2.svg', alt='1-8')
             .col-10.col-md-11.col-lg-11.mb-3.position-relative
-              p.m-0.color Cuando se instala el servidor de dominio y se configura el dominio, se instalan las cuentas locales predeterminadas, estas cuentas se guardan en el contenedor Usuarios en Usuarios y Equipos de <em>Active Directory.</em> Las cuentas locales predeterminadas se pueden crear, deshabilitar, restablecer y eliminar con la Consola de administración de Microsoft (MMC) de Usuarios y equipos de <em>Active Directory</em> y con herramientas de línea de comandos.
+              p.m-0.color Cuando se instala el servidor de dominio y se configura el dominio, se instalan las cuentas locales predeterminadas, estas cuentas se guardan en el contenedor Usuarios en Usuarios y Equipos de <em>Active Directory.</em> Las cuentas locales predeterminadas se pueden crear, deshabilitar, restablecer y eliminar con la Consola de administración de <em>Microsoft</em> (MMC) de Usuarios y equipos de <em>Active Directory</em> y con herramientas de línea de comandos.
               figure.posit-1
                 img.img90(src='@/assets/curso/tema1/t1-20.svg', alt='1-20')
           div.bgr_6.p-4.mb-4
@@ -173,7 +173,7 @@
           .col-md-7.mb-4.mb-md-0.align-items-center.order-2.order-md-1
             div.p-3.p-md-5.p-lg-5
               h2 Asignación de permisos
-              p.m-0 Para asignar derechos y permisos a un controlador de dominio local determinado se puede utilizar las funciones disponibles en usuarios y equipos de active directory.
+              p.m-0 Para asignar derechos y permisos a un controlador de dominio local determinado se puede utilizar las funciones disponibles en usuarios y equipos de <em>Active directory.</em>
           .col-md-5.order-1.order-md-2
             figure
               img(src='@/assets/curso/tema1/t1-21.svg', alt='1-21')
@@ -243,11 +243,11 @@
         .tarjeta.bgr_7.p-3(x="13%" y="44%" numero="01")
           figure.justify-end
             img.img70(src='@/assets/curso/tema1/01.svg', alt='01')
-          p.text-white Separar las cuentas de administrador de las de usuarios
+          p.text-white Separar las cuentas de administrador de las de usuarios.
         .tarjeta.bgr_7.p-3(x="29.2%" y="11%" numero="02")
           figure.justify-end
             img.img70(src='@/assets/curso/tema1/02.svg', alt='02')
-          p.text-white Para los administradores crear hosts de estación de trabajo dedicados.
+          p.text-white Para los administradores crear <em>hosts</em> de estación de trabajo dedicados.
         .tarjeta.bgr_7.p-3(x="60.8%" y="12%" numero="03")
           figure.justify-end
             img.img70(src='@/assets/curso/tema1/03.svg', alt='03')
@@ -255,7 +255,7 @@
         .tarjeta.bgr_7.p-3(x="75.3%" y="45%" numero="04")
           figure.justify-end
             img.img70(src='@/assets/curso/tema1/04.svg', alt='04')
-          p.text-white Para cuentas de administrador deshabilitar el derecho de delegación de cuenta
+          p.text-white Para cuentas de administrador deshabilitar el derecho de delegación de cuenta.
 
     separador
 
@@ -307,7 +307,7 @@
             img(src='@/assets/curso/tema1/t1-31.png', alt='1-31')
         .col-12.col-md-8.col-lg-8.mtop_1.position-relative
           span.m-0.color.text-bold Las políticas de dominio,  
-          | también llamadas de políticas de grupo o reglas del <em>active directory,</em> consisten en las reglas para el control de acceso a recursos y servicios para los usuarios. De toda la gama de políticas de grupo existen algunas que denotan mayor relevancia por su importancia en la seguridad digital, y que se deben seguir como buenas prácticas en la implementación de dominio ya sea local o en la nube, a continuación, se describen algunas de ellas en el siguiente recurso.
+          | también llamadas de políticas de grupo o reglas del <em>Active directory</em> consisten en las reglas para el control de acceso a recursos y servicios para los usuarios. De toda la gama de políticas de grupo existen algunas que denotan mayor relevancia por su importancia en la seguridad digital, y que se deben seguir como buenas prácticas en la implementación de dominio ya sea local o en la nube, a continuación, se describen algunas de ellas en el siguiente recurso.
           figure.posit-4
             img.img90(src='@/assets/curso/tema1/t1-20.svg', alt='1-20')
     .bg_grad-08
@@ -353,7 +353,7 @@
             .col-md-7.mb-md-0.cajon-b.color-primario.p-3.mb-5.mt-4.align-items-center
               div
                 h3 Acceso remoto 
-                p Se deben crear las políticas para asegurar el acceso remoto seguro de usuarios a los servidores y hosts que requieran permitirse este tipo de conexiones.
+                p Se deben crear las políticas para asegurar el acceso remoto seguro de usuarios a los servidores y <em>hosts</em> que requieran permitirse este tipo de conexiones.
             figure.posit-8
               img.img200(src='@/assets/curso/tema1/04-4.svg', alt='04-4')
 
@@ -388,7 +388,7 @@
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0.text-white
                 h3.mb-1 Introducción a AD DS
-                p.text-small Se recomienda seguir la guía rápida de Microsoft que encuentra en el material complementario y que puede consultar a través del siguiente enlace para conocer más sobre el directorio activo, los servicios de dominio y sus políticas.   
+                p.text-small Se recomienda seguir la guía rápida de <em>Microsoft</em> que encuentra en el material complementario y que puede consultar a través del siguiente enlace para conocer más sobre el directorio activo, los servicios de dominio y sus políticas.   
               .col-sm-auto
                 a.boton.color-acento-botones.text-black(href="https://docs.microsoft.com/en-us/learn/modules/introduction-to-ad-ds/" target="_blank")
                   span Abrir enlace
@@ -422,9 +422,9 @@
                 .bloque-texto-e.bgr_12.p-4
                   .bloque-texto-e__texto.position-relative.ptop
                     img.posit-24(src='@/assets/curso/tema1/t1-41.svg', alt='1-41')
-                    p.text-small.text-white Una de las opciones para la redundancia es realizar #[strong “Configuración de redundancia geográfica con Replicación de SQL Server”] como lo sugiere Microsoft en su portal, la compañía asegura lo siguiente, #[strong “Si usa SQL Server como base de datos de configuración de AD FS] #[em (Active Directory Federation Services)], #[strong puede configurar la redundancia geográfica para la granja de servidores AD FS mediante SQL Server replicación. La redundancia geográfica replica los datos entre dos sitios geográficamente lejanos para que las aplicaciones puedan cambiar de un sitio a otro. De este modo, en caso de error de un sitio, todavía puede tener todos los datos de configuración disponibles en el segundo sitio.”] 
+                    p.text-small.text-white Una de las opciones para la redundancia es realizar #[strong “Configuración de redundancia geográfica con Replicación de SQL Server”] como lo sugiere <em>Microsoft</em> en su portal, la compañía asegura lo siguiente, #[strong “Si usa SQL Server como base de datos de configuración de AD FS] #[em (Active Directory Federation Services)], #[strong puede configurar la redundancia geográfica para la granja de servidores AD FS mediante SQL Server replicación. La redundancia geográfica replica los datos entre dos sitios geográficamente lejanos para que las aplicaciones puedan cambiar de un sitio a otro. De este modo, en caso de error de un sitio, todavía puede tener todos los datos de configuración disponibles en el segundo sitio.”] 
                     div.pt-5.justify-end
-                      p.text-white.text.small Microsoft (2021)
+                      p.text-white.text.small <em>Microsoft</em> (2021)
                       i.color_3.fas.fa-square-full
                 .bgr_5.p-4.mt-3
                   p.m-0.text-small Otras formas de replicación involucran la instalación y configuración de servidores de controladores de dominio en sitios o nubes alternas.

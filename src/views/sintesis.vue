@@ -20,7 +20,7 @@
               p.m-0.color.text-bold En algunos casos la estructura lógica y física posibilitará un mejor y mayor desarrollo de la gestión, sin embargo, es necesario tener en cuenta las características propias del dominio, la seguridad con que deben establecerse las cuentas, que permiten generar relaciones de confianza para el usuario y el administrador.
       
             .bgr_5.p-4.mb-4(data-aos="zoom-in-up")
-              p.m-0 Por otra parte, el recurso del Docker, como contenedor, es de fácil manejo y servicio, posibilitando un mejor almacenamiento de información, todo esto enmarcado en las guías que ha facilitado Min Tic para el desarrollo tecnológico.
+              p.m-0 Por otra parte, el recurso del <em>Docker,</em> como contenedor, es de fácil manejo y servicio, posibilitando un mejor almacenamiento de información, todo esto enmarcado en las guías que ha facilitado Min Tic para el desarrollo tecnológico.
     p Un resumen de lo visto en el presente componente, podrá ser visualizado en el siguiente mapa:
 
     .row.justify-content-center

@@ -63,7 +63,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Software de virtualización',
+        titulo: '<em>Software</em> de virtualización',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -213,23 +213,25 @@ export default {
       link: 'https://aws.amazon.com/es/directoryservice/?nc=sn&loc=1',
     },
     {
-      referencia: 'Castillo (2018). Active Directory Que es y para qué sirve',
+      referencia:
+        'Castillo (2018). <em><em>Active Directory</em></em> Que es y para qué sirve',
       link: 'https://www.profesionalreview.com/2018/12/15/active-directory/',
     },
     {
-      referencia: 'Microsoft (2021). Cuentas de Active Directory',
+      referencia:
+        '<em>Microsoft</em> (2021). Cuentas de <em>Active Directory</em>',
       link:
         'https://docs.microsoft.com/es-es/windows/security/identity-protection/access-control/active-directory-accounts',
     },
     {
       referencia:
-        'Microsoft (2021). Línea base de seguridad de Azure para Azure Active Directory',
+        'Microsoft (2021). Línea base de seguridad de Azure para Azure <em>Active Directory</em>',
       link:
         'https://docs.microsoft.com/es-es/security/benchmark/azure/baselines/aad-security-baseline?toc=/azure/active-directory/fundamentals/toc.json',
     },
     {
       referencia:
-        'Microsoft (2021). Configuración de redundancia geográfica con Replicación de SQL Server',
+        '<em>Microsoft</em> (2021). Configuración de redundancia geográfica con Replicación de SQL Server',
       link:
         'https://docs.microsoft.com/es-es/windows-server/identity/ad-fs/deployment/set-up-geographic-redundancy-with-sql-server-replication',
     },
@@ -240,7 +242,7 @@ export default {
     },
     {
       referencia:
-        'RDR-IT.COM (2021). Active Directory: relación de confianza entre dos bosques / dominios',
+        'RDR-IT.COM (2021). <em>Active Directory</em>: relación de confianza entre dos bosques / dominios',
       link:
         'https://rdr-it.com/es/active-directory-relacion-de-confianza-entre-dos-bosques-dominios/',
     },
@@ -294,11 +296,11 @@ export default {
     {
       texto: 'MinTIC (2016) Seguridad en la Nube',
       tipo: 'Guia',
-      descarga: '/downloads/seguridad_en_la_nube.pdf',
+      descarga: '/downloads/seguridad-nube.pdf',
     },
     {
       texto:
-        'Guía rápida de Microsoft Introducción a AD DS. Accedido 28 de diciembre de 2021 en el enlace ',
+        'Guía rápida de <em>Microsoft</em> Introducción a AD DS. Accedido 28 de diciembre de 2021 en el enlace ',
       tipo: 'Página web',
       link:
         'https://docs.microsoft.com/en-us/learn/modules/introduction-to-ad-ds/',
@@ -317,7 +319,7 @@ export default {
     },
     {
       texto:
-        'Documentación de referencia <em>Dockerfile</em> para Windows disponible en ',
+        'Documentación de referencia <em>Dockerfile</em> para <em>Windows</em> disponible en ',
       tipo: 'Página web',
       link:
         'https://docs.microsoft.com/en-us/virtualization/windowscontainers/manage-docker/manage-windows-dockerfile',
@@ -340,43 +342,43 @@ export default {
       },
       {
         nombre: 'Pablo Cesar Pardo Ortiz',
-        cargo: 'Experto Temático',
+        cargo: 'Experto temático',
         centro:
-          'Centro de teleinformática y producción industrial - Regional Cauca',
+          'Centro de Teleinformática y Producción Industrial - Regional Cauca',
       },
       {
         nombre: 'Hernando José Peña Hidalgo',
-        cargo: 'Experto Temático',
+        cargo: 'Experto temático',
         centro:
-          'Centro de teleinformática y producción industrial - Regional Cauca',
+          'Centro de Teleinformática y Producción Industrial - Regional Cauca',
       },
       {
         nombre: 'José Luis Bastidas Pérez',
-        cargo: 'Experto Temático',
+        cargo: 'Experto temático',
         centro:
-          'Centro de teleinformática y producción industrial - Regional Cauca',
+          'Centro de Teleinformática y Producción Industrial - Regional Cauca',
       },
       {
         nombre: 'Joaquín Patiño Cerón',
-        cargo: 'Experto Temático',
+        cargo: 'Experto temático',
         centro:
-          'Centro de teleinformática y producción industrial - Regional Cauca',
+          'Centro de Teleinformática y Producción Industrial - Regional Cauca',
       },
       {
         nombre: 'Peter Emerson Pinchao Solis',
-        cargo: 'Experto Temático',
+        cargo: 'Experto temático',
         centro:
-          'Centro de teleinformática y producción industrial - Regional Cauca',
+          'Centro de Teleinformática y Producción Industrial - Regional Cauca',
       },
       {
         nombre: 'Henry Eduardo Bastidas Paruma',
         cargo: 'Instructor',
         centro:
-          'Centro de teleinformática y producción industrial - Regional Cauca',
+          'Centro de Teleinformática y Producción Industrial - Regional Cauca',
       },
       {
         nombre: 'María Inés Machado López',
-        cargo: 'Diseñadora Instruccional',
+        cargo: 'Diseñadora instruccional',
         centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
       },
       {
@@ -410,7 +412,7 @@ export default {
       },
       {
         nombre: 'Carlos Andrés Díaz Pinto',
-        cargo: 'Desarrollo Front-End',
+        cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
@@ -421,7 +423,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Melina Tatiana Quintero Rodriguez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
