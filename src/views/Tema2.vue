@@ -328,7 +328,7 @@
                             span Abrir enlace
                             i.fas.fa-link  
 
-            .row(numero="2" titulo="Oracle VM VirtualBox")
+            .row(numero="2" titulo="<em>Oracle VM VirtualBox</em>")
               .col-md-12
                 ul.lista-ul.p-3
                   li 
@@ -339,7 +339,7 @@
                     span.mtop_6 Posibilidad de instalar máquinas Linux, <em>MacOS</em> y <em>Windows</em> en la gran mayoría de versiones de forma gratuita.
                   li 
                     i.fas.fa-caret-right.fa-lg.bgr_19
-                    span.mtop_6 Soporta virtualización en tecnologías Intel y AMD.
+                    span.mtop_6 Soporta virtualización en tecnologías <em>Intel</em> y AMD.
                 .tarjeta.bgr_11.p-3.posit-17
                   .row.align-items-center
                     .col-12.col-md-auto.col-lg-auto.justify-center.mb-2
@@ -347,8 +347,8 @@
                     .col-12.col-md-10.col-lg-10
                       .row.align-items-center.position-relative
                         .col-12.col-md-9.col-lg-9.mb-3.mb-sm-0.text-white
-                          h3 Oracle VM VirtualBox 
-                          p.text-small.m-0  Aquí encontrará enlaces a los binarios de VirtualBox y su código fuente.   
+                          h3 <em>Oracle VM VirtualBox</em> 
+                          p.text-small.m-0  Aquí encontrará enlaces a los binarios de <em>VirtualBox</em> y su código fuente.   
                         .col-12.col-md-3.col-lg-3.justify-center
                           a.boton.color-acento-botones.text-black(href="https://www.virtualbox.org/wiki/Downloads" target="_blank")
                             span Abrir enlace
@@ -358,13 +358,13 @@
                 ul.lista-ul.p-3
                   li 
                     i.fas.fa-caret-right.fa-lg.bgr_19
-                    span.mtop_6 Disponible en forma nativa en S.O <em>Windows</em> en versión pro y server. Es decir, si se tiene este tipo de versiones estará disponible de forma gratuita y no requiere de instalación de <em>software</em> externo al sistema.
+                    span.mtop_6 Disponible en forma nativa en S.O <em>Windows</em> en versión pro y <em>server.</em> Es decir, si se tiene este tipo de versiones estará disponible de forma gratuita y no requiere de instalación de <em>software</em> externo al sistema.
                   li 
                     i.fas.fa-caret-right.fa-lg.bgr_19
                     span.mtop_6 Sirve para virtualizar sistemas <em>Windows</em> y otros como Linux y FreeBSD.
                   li 
                     i.fas.fa-caret-right.fa-lg.bgr_19
-                    span.mtop_6 Soporta virtualización en tecnologías Intel y AMD.
+                    span.mtop_6 Soporta virtualización en tecnologías <em>Intel</em> y AMD.
                 .tarjeta.bgr_11.p-3.posit-17
                   .row.align-items-center
                     .col-12.col-md-auto.col-lg-auto.justify-center.mb-2
@@ -372,8 +372,8 @@
                     .col-12.col-md-10.col-lg-10
                       .row.align-items-center.position-relative
                         .col-12.col-md-9.col-lg-9.mb-3.mb-sm-0.text-white
-                          h3 Microsoft Hyper-V 
-                          p.text-small.m-0  Hyper-V se puede habilitar de muchas maneras, incluido el uso del panel de control de <em>Windows</em> 10, PowerShell o la herramienta de administración y mantenimiento de imágenes de implementación (DISM). Este documento recorre cada opción.   
+                          h3 <em>Microsoft Hyper-V</em> 
+                          p.text-small.m-0  <em>Hyper-V</em> se puede habilitar de muchas maneras, incluido el uso del panel de control de <em>Windows</em> 10, <em>PowerShell</em> o la herramienta de administración y mantenimiento de imágenes de implementación (DISM). Este documento recorre cada opción.   
                         .col-12.col-md-3.col-lg-3.justify-center
                           a.boton.color-acento-botones.text-black(href="https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v" target="_blank")
                             span Abrir enlace
@@ -403,7 +403,7 @@
                           a.boton.color-acento-botones.text-black(href="https://www.qemu.org/download/" target="_blank")
                             span Abrir enlace
                             i.fas.fa-link
-            .row(numero="5" titulo="Parallels")
+            .row(numero="5" titulo="<em>Parallels</em>")
               .col-md-12
                 ul.lista-ul.p-3
                   li 
@@ -428,7 +428,7 @@
                     .col-12.col-md-10.col-lg-10
                       .row.align-items-center.position-relative
                         .col-12.col-md-9.col-lg-9.mb-3.mb-sm-0.text-white
-                          h3 Parallels 
+                          h3 <em>Parallels</em> 
                           p.text-small.m-0  Una aplicación rápida, sencilla y potente para ejecutar <em>Windows</em> en su <em>Mac</em> Intel o Apple M1, todo sin reiniciar. Incluye más de 30 herramientas de un solo toque para simplificar las tareas diarias en Mac y <em>Windows</em>.   
                         .col-12.col-md-3.col-lg-3.justify-center
                           a.boton.color-acento-botones.text-black(href="https://www.parallels.com" target="_blank")
@@ -437,24 +437,25 @@
     
     .bg_grad-06
       .row
-        .col-12.col-md-6.col-lg-6.mtop_1.order-2.order-md-1
+        .col-12.col-md-7.col-lg-7.mt-4.order-2.order-md-1
           div.bgr_4.p-2.mb-3
             h3.m-0.text-white Ejemplo de virtualización
           p En el siguiente recurso, podrá consultar un ejemplo paso a paso de cómo realizar un proceso de virtualización de una máquina con sistema operativo Linux, en una máquina con sistema operativo <em>Windows</em>. Para este ejemplo se utilizará una máquina <em>host</em> con sistema operativo <em>Windows</em> 10 Home de 64 bits y se virtualiza y ejecutará una máquina virtual con sistema operativo Ubuntu desktop 20.04 por medio de la herramienta Oracle <em>Virtual Box.</em>
-          .tarjeta.bgr_20.p-3
-            .row.justify-content-around.align-items-center
-              .col-3.col-md-2.col-lg-2
-                img(src="@/assets/curso/tema2/t2-24.svg")
-              .col-9 
-                .row.justify-content-between.align-items-center.position-relative
-                  .col.mb-3.mb-sm-0.text-white
-                    h3 Video tutorial 
-                    p.text-small.m-0  Estimado aprendiz, para profundizar sobre el tema puede consultar el siguiente video.   
-                  .col-sm-auto
-                    a.boton.color-acento-botones.text-black(href="https://www.youtube.com/embed/2L91WMqw96A" target="_blank")
-                      span Abrir enlace
-                      i.fas.fa-link
-        .col-12.col-md-6.col-lg-6.order-1.order-md-2(data-aos="zoom-in-up")
+          .row.justify-center
+            .col-10.tarjeta.bgr_20.p-3
+              .row.justify-content-around.align-items-center
+                .col-3.col-md-2.col-lg-2
+                  img(src="@/assets/curso/tema2/t2-24.svg")
+                .col-9 
+                  .row.justify-content-between.align-items-center.position-relative
+                    .col.mb-3.mb-sm-0.text-white
+                      h3 Video tutorial 
+                      p.text-small.m-0  Estimado aprendiz, para profundizar sobre el tema puede consultar el siguiente video.   
+                    .col-sm-auto
+                      a.boton.color-acento-botones.text-black(href="https://www.youtube.com/embed/2L91WMqw96A" target="_blank")
+                        span Abrir enlace
+                        i.fas.fa-link
+        .col-12.col-md-5.col-lg-5.order-1.order-md-2(data-aos="zoom-in-up")
           figure.justify-center
             img(src='@/assets/curso/tema2/t2-25.png', alt='2-25')
 

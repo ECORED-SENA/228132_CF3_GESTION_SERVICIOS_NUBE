@@ -267,7 +267,7 @@
       .row.justify-center
         .col-11
           .bgr_10
-            p.m-0.p-4 Dentro del controlador de dominio o #[strong.color Active Directory] un objeto es la representación general que se utiliza para referirse a cualquier elemento del directorio sobre el cual se aplican reglas y atributos. Los objetos se pueden agrupar en los siguientes grupos, veamos: 
+            p.m-0.p-4 Dentro del controlador de dominio o #[strong.color <em>Active Directory</em>] un objeto es la representación general que se utiliza para referirse a cualquier elemento del directorio sobre el cual se aplican reglas y atributos. Los objetos se pueden agrupar en los siguientes grupos, veamos: 
 
     .row.mb-5
       .col-sm-6.col-lg-4.mb-4.mb-lg-0
