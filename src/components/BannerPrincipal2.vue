@@ -16,7 +16,7 @@
             i.fas.fa-angle-right
 
       .col-lg-5.d-none.d-lg-block.px-0.position-relative.img-p
-        img(:src="globalData.imagenBannerPrincipal")
+        img.banner-principal__img(:src="globalData.imagenBannerPrincipal")
     .imagen_flotante_1: img(src="@/assets/curso/portada/flot1.svg").d-none.d-lg-block
     .imagen_flotante_2: img(src="@/assets/curso/portada/flot1.svg").d-none.d-lg-block
     .imagen_flotante_3: img(src="@/assets/curso/portada/flot2.svg").d-none.d-lg-block

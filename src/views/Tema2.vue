@@ -452,7 +452,7 @@
                       h3 Video tutorial 
                       p.text-small.m-0  Estimado aprendiz, para profundizar sobre el tema puede consultar el siguiente video.   
                     .col-sm-auto
-                      a.boton.color-acento-botones.text-black(href="https://www.youtube.com/embed/2L91WMqw96A" target="_blank")
+                      a.boton.color-acento-botones.text-black(href="https://www.youtube.com/embed/tqOc8Z9shVM" target="_blank")
                         span Abrir enlace
                         i.fas.fa-link
         .col-12.col-md-5.col-lg-5.order-1.order-md-2(data-aos="zoom-in-up")
