@@ -183,7 +183,7 @@
         figure(@click="goToElement('anclas')" @mouseover="mostrarIndicador =false")
           img(src='@/assets/curso/up.svg', alt='icon', style='width: 33px').m-auto
             
-    p FC presenta un grado alto de rendimiento y fiabilidad, pero implican realizar una inversión económica mayor e introducen complejidad en la configuración del centro de datos. FC es la solución más utilizada para entornos de virtualización de gran dimensión o máquinas virtuales con IOPS (número de E/S de acceso a disco) alto gracias a los anchos de banda que se alcanzan (8 Gpbs e incluso 16 Gbps).
+    p FC presenta un grado alto de rendimiento y fiabilidad, pero implican realizar una inversión económica mayor e introducen complejidad en la configuración del centro de datos. FC es la solución más utilizada para entornos de virtualización de gran dimensión o máquinas virtuales con IOPS (número de E/S de acceso a disco) alto gracias a los anchos de banda que se alcanzan (8 Gbps e incluso 16 Gbps).
 
     .row.mt-2
       .col-12.col-md-4.col-lg-4.mb-3
@@ -248,7 +248,7 @@
                   img.d-flex.d-lg-none.img50(src='@/assets/curso/puntos2.svg', alt='puntos')
               .col-9
                 p.m-0.color.text-bold El coste y rendimiento de cada solución puede variar grandemente siendo los dispositivos dedicados los que ofrecen mayor rendimiento, pero a un coste más alto.
-              p.mt-4 En la mayoría de los casos, NAS no ofrece el mismo rendimiento que una red SAN FC pero una arquitectura de red bien configurada puede ofrecer un rendimiento adaptado a tus necesidades. De manera similar a iSCSI, NAS utiliza tarjetas de red para comunicarse con los dispositivos de almacenamiento, por lo tanto tenemos un límite de 1 Gpbs. A diferencia de iSCSI no permite <em>multipathing</em> ofreciendo un rendimiento inferior.
+              p.mt-4 En la mayoría de los casos, NAS no ofrece el mismo rendimiento que una red SAN FC pero una arquitectura de red bien configurada puede ofrecer un rendimiento adaptado a tus necesidades. De manera similar a iSCSI, NAS utiliza tarjetas de red para comunicarse con los dispositivos de almacenamiento, por lo tanto tenemos un límite de 1 Gbps. A diferencia de iSCSI no permite <em>multipathing</em> ofreciendo un rendimiento inferior.
           .col-md-4.order-1.order-md-2.mb-3
             figure
               img(src='@/assets/curso/tema4/t4-18.svg', alt='4-17')      

@@ -15,7 +15,7 @@
       .row.justify-center
         .col-11
           .bgr
-            p.m-0.p-4 Le damos la bienvenida al componente formativo “Diseño y documentación de propuesta para servicios en la nube”. Para comenzar el recorrido por el mismo, visite el recurso didáctico que se muestra a continuación:
+            p.m-0.p-4 Le damos la bienvenida al componente formativo “Especificaciones técnicas para la arquitectura tecnológica en nube”. Para comenzar el recorrido por el mismo, visite el recurso didáctico que se muestra a continuación:
     
     figure.mb-5
       .video

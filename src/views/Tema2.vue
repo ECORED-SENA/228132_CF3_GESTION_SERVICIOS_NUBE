@@ -291,7 +291,7 @@
                 figure.justify-center
                   img.d-flex(src='@/assets/curso/puntos6.svg', alt='puntos')
               .col-10.col-md-11.col-lg-11.position-relative
-                p.m-0 En el mercado existen muchas herramientas de <em>software</em> creadas para facilitar el proceso de virtualización de servidores, en la Tabla 1 se listan algunas de estas herramientas para entornos domésticos y pequeñas empresas junto con cada una de sus características principales.
+                p.m-0 En el mercado existen muchas herramientas de <em>software</em> creadas para facilitar el proceso de virtualización de servidores, a continuación podra ver algunas de estas herramientas para entornos domésticos y pequeñas empresas junto con cada una de sus características principales.
                 figure.posit-22
                   img.img90(src='@/assets/curso/puntos3.svg', alt='puntos')
     .bg_grad-12

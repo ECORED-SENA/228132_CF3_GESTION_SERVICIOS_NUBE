@@ -36,7 +36,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Estructura lógica y física',
+            titulo: 'Estructura física y lógica',
             hash: 't_1_2',
           },
           {
@@ -81,7 +81,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Características',
+            titulo: 'Características de la virtualización',
             hash: 't_2_3',
           },
         ],
@@ -129,13 +129,13 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '4.2',
-            titulo: 'Tipos',
+            titulo: 'Tipos de almacenamiento',
             hash: 't_4_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '4.3',
-            titulo: 'Tecnologías',
+            titulo: 'Tecnologías de almacenamiento',
             hash: 't_4_3',
           },
           {

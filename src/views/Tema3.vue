@@ -148,7 +148,7 @@
             img(src='@/assets/curso/tema3/t3-8.png', alt='3-8')
 
     div.bgr_16.p-2.mb-4
-      h4.m-0.text-white Al desplegar el siguiente recurso, podrá observar las características del <em>Docker,</em> veamos:
+      h4.m-0.text-white En el siguiente recurso, podrá observar las características del <em>Docker,</em> veamos:
     
     figure.mb-5
       .video

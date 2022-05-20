@@ -10,7 +10,7 @@
             img(src='@/assets/curso/sintesis/s-1.png', alt='1-7')
         .col-12-col-md-6.col-lg-6.mtop
           div.p-2.p-md-3.bgr_1
-            p.m-0 La arquitectura de la nube, tiene algunas especificaciones técnicas que debe tener sé en cuenta cuando se van a llevar a cabo procesos de gestión en <em>cloud.</em>
+            p.m-0 La arquitectura de la nube, tiene algunas especificaciones técnicas que deben tenerse en cuenta cuando se van a llevar a cabo procesos de gestión en <em>cloud.</em>
           .row.mt-3
             .col-2.col-md-1.col-lg-1.align-items-center
               figure.justify-center
@@ -20,7 +20,7 @@
               p.m-0.color.text-bold En algunos casos la estructura lógica y física posibilitará un mejor y mayor desarrollo de la gestión, sin embargo, es necesario tener en cuenta las características propias del dominio, la seguridad con que deben establecerse las cuentas, que permiten generar relaciones de confianza para el usuario y el administrador.
       
             .bgr_5.p-4.mb-4(data-aos="zoom-in-up")
-              p.m-0 Por otra parte, el recurso del <em>Docker,</em> como contenedor, es de fácil manejo y servicio, posibilitando un mejor almacenamiento de información, todo esto enmarcado en las guías que ha facilitado Min Tic para el desarrollo tecnológico.
+              p.m-0 Por otra parte, el recurso del <em>Docker,</em> como contenedor, es de fácil manejo y servicio, posibilitando un mejor almacenamiento de información, todo esto enmarcado en las guías que ha facilitado MinTic para el desarrollo tecnológico.
     p Un resumen de lo visto en el presente componente, podrá ser visualizado en el siguiente mapa:
 
     .row.justify-content-center
